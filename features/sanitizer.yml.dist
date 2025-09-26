@@ -5,6 +5,14 @@ status:
   baseline: false
   support: {}
 compat_features:
+  # baseline: false
+  # support:
+  #   firefox: preview
+  - api.ShadowRoot.setHTML
+
+  # ⬇️ Same status as overall feature ⬇️
+  # baseline: false
+  # support: {}
   - api.Document.parseHTML_static
   - api.Element.setHTML
   - api.Sanitizer
@@ -18,4 +26,3 @@ compat_features:
   - api.Sanitizer.replaceElementWithChildren
   - api.Sanitizer.setComments
   - api.Sanitizer.setDataAttributes
-  - api.ShadowRoot.setHTML

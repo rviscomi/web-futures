@@ -1,11 +1,11 @@
 {
-  "name": "web-features",
+  "name": "web-futures",
   "description": "Curated list of Web platform features",
   "version": "3.1.0",
   "license": "Apache-2.0",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/web-platform-dx/web-features.git",
+    "url": "git+https://github.com/rviscomi/web-futures.git",
     "directory": "packages/web-features"
   },
   "type": "module",

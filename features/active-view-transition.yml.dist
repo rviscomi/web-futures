@@ -15,6 +15,7 @@ compat_features:
   #   chrome: "125"
   #   chrome_android: "125"
   #   edge: "125"
+  #   firefox: preview
   #   safari: "18"
   #   safari_ios: "18"
   - css.selectors.active-view-transition

@@ -144,5 +144,6 @@ compat_features:
   - api.Element.transitioncancel_event
 
   # baseline: false
-  # support: {}
+  # support:
+  #   safari: preview
   - css.properties.transition.gradients_can_animate

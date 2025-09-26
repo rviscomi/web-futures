@@ -462,6 +462,7 @@ compat_features:
   #   chrome: "59"
   #   chrome_android: "59"
   #   edge: "18"
+  #   firefox: preview
   #   safari: "15.4"
   #   safari_ios: "15.4"
   - http.headers.Service-Worker-Navigation-Preload

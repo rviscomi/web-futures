@@ -7,5 +7,6 @@ status:
     chrome: "114"
     chrome_android: "114"
     edge: "114"
+    firefox: preview
 compat_features:
   - webassembly.relaxed-SIMD

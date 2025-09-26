@@ -216,6 +216,13 @@ compat_features:
   # baseline: false
   # support:
   #   chrome: "48"
+  #   edge: "18"
+  #   firefox: preview
+  - api.Notification.maxActions_static
+
+  # baseline: false
+  # support:
+  #   chrome: "48"
   #   chrome_android: "48"
   #   edge: "18"
   - api.ServiceWorkerRegistration.showNotification.options_actions_parameter
@@ -226,6 +233,13 @@ compat_features:
   #   chrome_android: "50"
   #   edge: "79"
   - api.ServiceWorkerRegistration.showNotification.options_renotify_parameter
+
+  # baseline: false
+  # support:
+  #   chrome: "53"
+  #   edge: "18"
+  #   firefox: preview
+  - api.Notification.actions
 
   # baseline: false
   # support:
@@ -255,12 +269,6 @@ compat_features:
 
   # baseline: false
   # support:
-  #   chrome: "48"
-  #   edge: "18"
-  - api.Notification.maxActions_static
-
-  # baseline: false
-  # support:
   #   chrome: "50"
   #   edge: "17"
   - api.Notification.timestamp
@@ -275,7 +283,6 @@ compat_features:
   # support:
   #   chrome: "53"
   #   edge: "18"
-  - api.Notification.actions
   - api.Notification.badge
 
   # baseline: false

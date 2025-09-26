@@ -239,6 +239,7 @@ compat_features:
   - html.elements.th.rowspan.rowspan_zero
 
   # baseline: false
-  # support: {}
+  # support:
+  #   safari: preview
   - css.properties.caption-side.bottom-outside
   - css.properties.caption-side.top-outside

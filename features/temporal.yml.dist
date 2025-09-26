@@ -7,12 +7,18 @@ status:
     firefox: "139"
     firefox_android: "139"
 compat_features:
+  # baseline: false
+  # support:
+  #   firefox: "139"
+  #   firefox_android: "139"
+  #   safari: preview
+  - javascript.builtins.Date.toTemporalInstant
+
   # ⬇️ Same status as overall feature ⬇️
   # baseline: false
   # support:
   #   firefox: "139"
   #   firefox_android: "139"
-  - javascript.builtins.Date.toTemporalInstant
   - javascript.builtins.Temporal
   - javascript.builtins.Temporal.Duration
   - javascript.builtins.Temporal.Duration.Duration

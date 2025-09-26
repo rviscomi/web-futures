@@ -3,7 +3,8 @@
 
 status:
   baseline: false
-  support: {}
+  support:
+    safari: preview
 compat_features:
   - css.properties.grid-template-columns.masonry
   - css.properties.grid-template-rows.masonry

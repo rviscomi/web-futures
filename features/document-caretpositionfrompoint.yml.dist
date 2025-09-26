@@ -37,4 +37,5 @@ compat_features:
   #   chrome: "128"
   #   chrome_android: "128"
   #   edge: "128"
+  #   firefox: preview
   - api.Document.caretPositionFromPoint.options_parameter

@@ -3,7 +3,8 @@
 
 status:
   baseline: false
-  support: {}
+  support:
+    firefox: preview
 compat_features:
   - api.Document.parseHTMLUnsafe_static.options_sanitizer_parameter
   - api.Element.setHTMLUnsafe.options_sanitizer_parameter

@@ -10,6 +10,23 @@ status:
     firefox: "66"
     firefox_android: "66"
 compat_features:
+  # baseline: false
+  # support:
+  #   chrome: "56"
+  #   chrome_android: "56"
+  #   edge: "79"
+  #   firefox: "66"
+  #   firefox_android: "66"
+  #   safari: preview
   - css.properties.overflow-anchor
+
+  # ⬇️ Same status as overall feature ⬇️
+  # baseline: false
+  # support:
+  #   chrome: "56"
+  #   chrome_android: "56"
+  #   edge: "79"
+  #   firefox: "66"
+  #   firefox_android: "66"
   - css.properties.overflow-anchor.auto
   - css.properties.overflow-anchor.none

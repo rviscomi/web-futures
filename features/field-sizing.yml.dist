@@ -7,6 +7,7 @@ status:
     chrome: "123"
     chrome_android: "123"
     edge: "123"
+    safari: preview
 compat_features:
   - css.properties.field-sizing
   - css.properties.field-sizing.content

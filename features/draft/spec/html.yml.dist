@@ -817,6 +817,14 @@ compat_features:
   #   chrome: "99"
   #   chrome_android: "99"
   #   edge: "99"
+  #   safari: preview
+  - api.HTMLInputElement.showPicker.datalist_input
+
+  # baseline: false
+  # support:
+  #   chrome: "99"
+  #   chrome_android: "99"
+  #   edge: "99"
   #   firefox_android: "121"
   - api.HTMLInputElement.showPicker.month_input
   - api.HTMLInputElement.showPicker.week_input
@@ -828,6 +836,15 @@ compat_features:
   #   safari: "17.2"
   #   safari_ios: "17.2"
   - api.HTMLBaseElement.href.forbid_data_javascript_urls
+
+  # baseline: false
+  # support:
+  #   chrome: "139"
+  #   chrome_android: "139"
+  #   edge: "139"
+  #   safari: preview
+  - api.HTMLButtonElement.command.request-close
+  - html.elements.button.command.request-close
 
   # baseline: false
   # support:
@@ -858,7 +875,6 @@ compat_features:
   #   chrome_android: "99"
   #   edge: "99"
   - api.HTMLInputElement.showPicker.autocomplete_input
-  - api.HTMLInputElement.showPicker.datalist_input
 
   # baseline: false
   # support:
@@ -903,14 +919,6 @@ compat_features:
   #   edge: "137"
   - api.ImageData.ImageData.settings_parameter.pixelFormat_option
   - api.ImageData.pixelFormat
-
-  # baseline: false
-  # support:
-  #   chrome: "139"
-  #   chrome_android: "139"
-  #   edge: "139"
-  - api.HTMLButtonElement.command.request-close
-  - html.elements.button.command.request-close
 
   # baseline: false
   # support:

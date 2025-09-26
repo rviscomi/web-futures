@@ -450,6 +450,7 @@ compat_features:
   #   edge: "136"
   #   firefox: "138"
   #   firefox_android: "138"
+  #   safari: preview
   - api.ProgressEvent.ProgressEvent.loaded_total_options_accept_double
 
   # baseline: false
