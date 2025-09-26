@@ -240,7 +240,7 @@ const compat = new Compat();
 const browsers: Partial<WebFeaturesData["browsers"]> = {};
 for (const browser of coreBrowserSet.map(identifier => compat.browser(identifier))) {
     const { id, name } = browser;
-    const releases = browser.releases.filter(release => !release.isPrerelease()).map(release => ({
+    const releases = browser.releases.map(release => ({
         version: release.version,
         date: String(release.date),
     }))
