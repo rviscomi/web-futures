@@ -770,6 +770,15 @@ compat_features:
 
   # baseline: false
   # support:
+  #   chrome: "141"
+  #   chrome_android: "141"
+  - webdriver.bidi.emulation.setScriptingEnabled
+  - webdriver.bidi.emulation.setScriptingEnabled.contexts_parameter
+  - webdriver.bidi.emulation.setScriptingEnabled.enabled_parameter
+  - webdriver.bidi.emulation.setScriptingEnabled.userContexts_parameter
+
+  # baseline: false
+  # support:
   #   firefox: "143"
   #   firefox_android: "143"
   - webdriver.bidi.network.addDataCollector

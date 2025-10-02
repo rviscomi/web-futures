@@ -6,18 +6,11 @@ status:
   support:
     chrome: "141"
     chrome_android: "141"
+<<<<<<< HEAD
     edge: "141"
+=======
+>>>>>>> c85ec1c5cffd05029e6fc6866152ad29f14f6da4
 compat_features:
-  # baseline: false
-  # support:
-  #   chrome: "1"
-  #   chrome_android: "18"
-  #   edge: "79"
-  #   safari: "5.1"
-  #   safari_ios: "5"
-  - css.properties.alignment-baseline.text-after-edge
-  - css.properties.alignment-baseline.text-before-edge
-
   # baseline: false
   # support:
   #   chrome: "137"
@@ -31,5 +24,8 @@ compat_features:
   # support:
   #   chrome: "141"
   #   chrome_android: "141"
+<<<<<<< HEAD
   #   edge: "141"
+=======
+>>>>>>> c85ec1c5cffd05029e6fc6866152ad29f14f6da4
   - api.SVGAnimatedString.baseVal.enforces_trusted_types
