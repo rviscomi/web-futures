@@ -6,10 +6,7 @@ status:
   support:
     chrome: "141"
     chrome_android: "141"
-<<<<<<< HEAD
     edge: "141"
-=======
->>>>>>> c85ec1c5cffd05029e6fc6866152ad29f14f6da4
 compat_features:
   # baseline: false
   # support:
@@ -24,8 +21,5 @@ compat_features:
   # support:
   #   chrome: "141"
   #   chrome_android: "141"
-<<<<<<< HEAD
   #   edge: "141"
-=======
->>>>>>> c85ec1c5cffd05029e6fc6866152ad29f14f6da4
   - api.SVGAnimatedString.baseVal.enforces_trusted_types

@@ -7,10 +7,7 @@ status:
   support:
     chrome: "141"
     chrome_android: "141"
-<<<<<<< HEAD
     edge: "141"
-=======
->>>>>>> c85ec1c5cffd05029e6fc6866152ad29f14f6da4
     firefox: "117"
     firefox_android: "117"
     safari: "15.4"
@@ -35,19 +32,12 @@ compat_features:
   - api.RTCEncodedVideoFrame.type
 
   # ⬇️ Same status as overall feature ⬇️
-<<<<<<< HEAD
   # baseline: low
   # baseline_low_date: 2025-10-02
   # support:
   #   chrome: "141"
   #   chrome_android: "141"
   #   edge: "141"
-=======
-  # baseline: false
-  # support:
-  #   chrome: "141"
-  #   chrome_android: "141"
->>>>>>> c85ec1c5cffd05029e6fc6866152ad29f14f6da4
   #   firefox: "117"
   #   firefox_android: "117"
   #   safari: "15.4"
