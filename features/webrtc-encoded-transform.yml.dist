@@ -3,7 +3,11 @@
 
 status:
   baseline: low
+<<<<<<< HEAD
   baseline_low_date: 2025-10-02
+=======
+  baseline_low_date: 2025-10-03
+>>>>>>> e947bffc79135169e15efd5d5826da0f6a99a701
   support:
     chrome: "141"
     chrome_android: "141"
@@ -33,7 +37,11 @@ compat_features:
 
   # ⬇️ Same status as overall feature ⬇️
   # baseline: low
+<<<<<<< HEAD
   # baseline_low_date: 2025-10-02
+=======
+  # baseline_low_date: 2025-10-03
+>>>>>>> e947bffc79135169e15efd5d5826da0f6a99a701
   # support:
   #   chrome: "141"
   #   chrome_android: "141"

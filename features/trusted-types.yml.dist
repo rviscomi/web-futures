@@ -47,6 +47,8 @@ compat_features:
   - api.setInterval.code_param_enforces_trusted_types
   - api.setTimeout.code_param_enforces_trusted_types
   - api.trustedTypes
+  - http.headers.Content-Security-Policy.require-trusted-types-for
+  - http.headers.Content-Security-Policy.trusted-types
 
   # baseline: false
   # support:
@@ -66,6 +68,7 @@ compat_features:
   #   safari: "26"
   #   safari_ios: "26"
   - api.HTMLScriptElement.textContent.enforces_trusted_types
+<<<<<<< HEAD
 
   # baseline: false
   # support:
@@ -75,3 +78,5 @@ compat_features:
   #   safari: preview
   - http.headers.Content-Security-Policy.require-trusted-types-for
   - http.headers.Content-Security-Policy.trusted-types
+=======
+>>>>>>> e947bffc79135169e15efd5d5826da0f6a99a701
