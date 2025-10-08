@@ -14,6 +14,18 @@ compat_features:
   - css.properties.caret-animation.auto
   - css.properties.caret-animation.manual
 
+  # baseline: false
+  # support:
+  #   chrome: "142"
+  #   chrome_android: "142"
+  #   edge: "142"
+  - css.properties.interest-delay
+  - css.properties.interest-delay-end
+  - css.properties.interest-delay-end.normal
+  - css.properties.interest-delay-start
+  - css.properties.interest-delay-start.normal
+  - css.properties.interest-delay.normal
+
   # ⬇️ Same status as overall feature ⬇️
   # baseline: false
   # support: {}
@@ -22,9 +34,3 @@ compat_features:
   - css.properties.caret-shape.bar
   - css.properties.caret-shape.block
   - css.properties.caret-shape.underscore
-  - css.properties.interest-delay
-  - css.properties.interest-delay-end
-  - css.properties.interest-delay-end.normal
-  - css.properties.interest-delay-start
-  - css.properties.interest-delay-start.normal
-  - css.properties.interest-delay.normal
