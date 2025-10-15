@@ -6,5 +6,6 @@ status:
   support:
     firefox: "137"
     firefox_android: "137"
+    safari: preview
 compat_features:
   - javascript.builtins.Math.sumPrecise

@@ -682,6 +682,7 @@ compat_features:
   #   firefox_android: "144"
   #   safari: preview
   - api.HTMLButtonElement.command.request-close
+  - html.elements.button.command.request-close
 
   # baseline: false
   # support:
@@ -843,14 +844,6 @@ compat_features:
   #   safari: "17.2"
   #   safari_ios: "17.2"
   - api.HTMLBaseElement.href.forbid_data_javascript_urls
-
-  # baseline: false
-  # support:
-  #   chrome: "139"
-  #   chrome_android: "139"
-  #   edge: "139"
-  #   safari: preview
-  - html.elements.button.command.request-close
 
   # baseline: false
   # support:

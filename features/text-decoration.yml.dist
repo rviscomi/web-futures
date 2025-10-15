@@ -97,6 +97,7 @@ compat_features:
   #   edge: "79"
   #   firefox: "6"
   #   firefox_android: "6"
+  #   safari: preview
   - css.properties.text-decoration.includes_color-and-style
 
   # baseline: false
@@ -106,6 +107,7 @@ compat_features:
   #   edge: "87"
   #   firefox: "70"
   #   firefox_android: "79"
+  #   safari: preview
   - css.properties.text-decoration.includes_thickness
 
   # baseline: false

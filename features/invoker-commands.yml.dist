@@ -7,30 +7,16 @@ status:
     chrome: "135"
     chrome_android: "135"
     edge: "135"
+    firefox: "144"
+    firefox_android: "144"
     safari: preview
 compat_features:
-  # baseline: false
-  # support:
-  #   chrome: "135"
-  #   chrome_android: "135"
-  #   edge: "135"
-  #   firefox: "144"
-  #   firefox_android: "144"
-  #   safari: preview
   - api.CommandEvent
   - api.CommandEvent.CommandEvent
   - api.CommandEvent.command
   - api.CommandEvent.source
   - api.HTMLButtonElement.command
   - api.HTMLButtonElement.commandForElement
-
-  # ⬇️ Same status as overall feature ⬇️
-  # baseline: false
-  # support:
-  #   chrome: "135"
-  #   chrome_android: "135"
-  #   edge: "135"
-  #   safari: preview
   - api.HTMLElement.command_event
   - html.elements.button.command
   - html.elements.button.commandfor

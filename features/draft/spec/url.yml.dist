@@ -3,6 +3,7 @@
 
 status:
   baseline: false
-  support: {}
+  support:
+    safari: preview
 compat_features:
   - api.URL.pathname.encodes_trailing_space_in_opaque_path
