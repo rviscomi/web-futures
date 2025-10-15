@@ -816,6 +816,18 @@ compat_features:
   - webdriver.bidi.browsingContext.historyUpdated_event.url_parameter
   - webdriver.bidi.browsingContext.userPromptClosed_event.type_parameter.beforeunload
   - webdriver.bidi.browsingContext.userPromptOpened_event.type_parameter.beforeunload
+<<<<<<< HEAD
+=======
+  - webdriver.bidi.emulation.setNetworkConditions
+  - webdriver.bidi.emulation.setNetworkConditions.contexts_parameter
+  - webdriver.bidi.emulation.setNetworkConditions.networkConditions_parameter
+  - webdriver.bidi.emulation.setNetworkConditions.networkConditions_parameter.offline
+  - webdriver.bidi.emulation.setNetworkConditions.userContexts_parameter
+  - webdriver.bidi.emulation.setUserAgentOverride
+  - webdriver.bidi.emulation.setUserAgentOverride.contexts_parameter
+  - webdriver.bidi.emulation.setUserAgentOverride.userAgent_parameter
+  - webdriver.bidi.emulation.setUserAgentOverride.userContexts_parameter
+>>>>>>> e63ebf45fe3383f54c9661df631996db6bc3755e
   - webdriver.bidi.network.addDataCollector.collectorType_parameter
   - webdriver.bidi.network.authRequired_event.response_parameter
   - webdriver.bidi.network.provideResponse.body_parameter
