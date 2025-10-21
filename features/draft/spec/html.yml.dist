@@ -814,13 +814,12 @@ compat_features:
 
   # baseline: false
   # support:
-  #   chrome: "139"
-  #   chrome_android: "139"
-  #   edge: "139"
-  #   firefox: "144"
-  #   firefox_android: "144"
-  - api.HTMLButtonElement.command.request-close
-  - html.elements.button.command.request-close
+  #   chrome: "140"
+  #   chrome_android: "140"
+  #   edge: "140"
+  #   firefox: "145"
+  #   firefox_android: "145"
+  - api.ToggleEvent.source
 
   # baseline: false
   # support:
@@ -936,13 +935,6 @@ compat_features:
   - api.HTMLCanvasElement.getContext.2d_context.options_colorType_parameter
   - api.ImageData.ImageData.settings_parameter.pixelFormat_option
   - api.ImageData.pixelFormat
-
-  # baseline: false
-  # support:
-  #   chrome: "140"
-  #   chrome_android: "140"
-  #   edge: "140"
-  - api.ToggleEvent.source
 
   # baseline: false
   # support:
