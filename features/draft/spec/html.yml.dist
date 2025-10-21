@@ -814,6 +814,16 @@ compat_features:
 
   # baseline: false
   # support:
+  #   chrome: "139"
+  #   chrome_android: "139"
+  #   edge: "139"
+  #   firefox: "144"
+  #   firefox_android: "144"
+  - api.HTMLButtonElement.command.request-close
+  - html.elements.button.command.request-close
+
+  # baseline: false
+  # support:
   #   chrome: "96"
   #   chrome_android: "96"
   #   edge: "96"
@@ -939,6 +949,7 @@ compat_features:
   #   chrome: "141"
   #   chrome_android: "141"
   #   edge: "141"
+  - api.NavigateEvent.intercept.precommitHandler_option
   - api.NavigationPrecommitController
   - api.NavigationPrecommitController.redirect
   - api.NavigationTransition.committed

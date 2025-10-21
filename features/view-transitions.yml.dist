@@ -49,6 +49,18 @@ compat_features:
   - css.properties.view-transition-name
   - css.properties.view-transition-name.none
 
+  # baseline: low
+  # baseline_low_date: 2025-10-14
+  # support:
+  #   chrome: "137"
+  #   chrome_android: "137"
+  #   edge: "137"
+  #   firefox: "144"
+  #   firefox_android: "144"
+  #   safari: "18.4"
+  #   safari_ios: "18.4"
+  - css.properties.view-transition-name.match-element
+
   # baseline: false
   # support:
   #   chrome: "111"
@@ -108,12 +120,3 @@ compat_features:
   #   safari_ios: "18.2"
   - api.PageRevealEvent.PageRevealEvent
   - api.PageSwapEvent.PageSwapEvent
-
-  # baseline: false
-  # support:
-  #   chrome: "137"
-  #   chrome_android: "137"
-  #   edge: "137"
-  #   firefox: "144"
-  #   firefox_android: "144"
-  - css.properties.view-transition-name.match-element
