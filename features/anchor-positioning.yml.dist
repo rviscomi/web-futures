@@ -7,6 +7,7 @@ status:
     chrome: "125"
     chrome_android: "125"
     edge: "125"
+    firefox: preview
     safari: "26"
     safari_ios: "26"
 compat_features:
@@ -16,6 +17,7 @@ compat_features:
   #   chrome: "125"
   #   chrome_android: "125"
   #   edge: "125"
+  #   firefox: preview
   #   safari: "26"
   #   safari_ios: "26"
   - api.CSSPositionTryDescriptors
@@ -91,8 +93,6 @@ compat_features:
   - api.CSSPositionTryRule.name
   - api.CSSPositionTryRule.style
   - css.at-rules.position-try
-  - css.properties.align-items.anchor-center
-  - css.properties.align-self.anchor-center
   - css.properties.anchor-name
   - css.properties.anchor-name.none
   - css.properties.block-size.anchor-size
@@ -106,8 +106,6 @@ compat_features:
   - css.properties.inset-inline-start.anchor
   - css.properties.inset-inline.anchor
   - css.properties.inset.anchor
-  - css.properties.justify-items.anchor-center
-  - css.properties.justify-self.anchor-center
   - css.properties.left.anchor
   - css.properties.max-block-size.anchor-size
   - css.properties.max-height.anchor-size
@@ -121,12 +119,6 @@ compat_features:
   - css.properties.place-self.anchor-center
   - css.properties.position-anchor
   - css.properties.position-try
-  - css.properties.position-try-order
-  - css.properties.position-try-order.most-block-size
-  - css.properties.position-try-order.most-height
-  - css.properties.position-try-order.most-inline-size
-  - css.properties.position-try-order.most-width
-  - css.properties.position-try-order.normal
   - css.properties.right.anchor
   - css.properties.top.anchor
   - css.properties.width.anchor-size
@@ -138,6 +130,7 @@ compat_features:
   #   chrome: "128"
   #   chrome_android: "128"
   #   edge: "128"
+  #   firefox: preview
   #   safari: "26"
   #   safari_ios: "26"
   - css.properties.position-try-fallbacks
@@ -152,6 +145,7 @@ compat_features:
   #   chrome: "129"
   #   chrome_android: "129"
   #   edge: "129"
+  #   firefox: preview
   #   safari: "26"
   #   safari_ios: "26"
   - api.CSSPositionTryDescriptors.position-area
@@ -174,12 +168,8 @@ compat_features:
   - css.properties.position-area.span-start
   - css.properties.position-area.span-top
   - css.properties.position-area.span-x-end
-  - css.properties.position-area.span-x-self-end
-  - css.properties.position-area.span-x-self-start
   - css.properties.position-area.span-x-start
   - css.properties.position-area.span-y-end
-  - css.properties.position-area.span-y-self-end
-  - css.properties.position-area.span-y-self-start
   - css.properties.position-area.span-y-start
   - css.properties.position-area.start
 
@@ -188,6 +178,7 @@ compat_features:
   #   chrome: "131"
   #   chrome_android: "131"
   #   edge: "131"
+  #   firefox: preview
   #   safari: "26"
   #   safari_ios: "26"
   - css.properties.anchor-scope
@@ -199,6 +190,7 @@ compat_features:
   #   chrome: "132"
   #   chrome_android: "132"
   #   edge: "132"
+  #   firefox: preview
   #   safari: "26"
   #   safari_ios: "26"
   - css.properties.bottom.anchor-size
@@ -230,9 +222,28 @@ compat_features:
   #   chrome: "137"
   #   chrome_android: "137"
   #   edge: "137"
+  #   firefox: preview
   #   safari: "26"
   #   safari_ios: "26"
   - api.HTMLElement.togglePopover.options_source_parameter.implicit_anchor_reference
+
+  # baseline: false
+  # support:
+  #   chrome: "125"
+  #   chrome_android: "125"
+  #   edge: "125"
+  #   safari: "26"
+  #   safari_ios: "26"
+  - css.properties.align-items.anchor-center
+  - css.properties.align-self.anchor-center
+  - css.properties.justify-items.anchor-center
+  - css.properties.justify-self.anchor-center
+  - css.properties.position-try-order
+  - css.properties.position-try-order.most-block-size
+  - css.properties.position-try-order.most-height
+  - css.properties.position-try-order.most-inline-size
+  - css.properties.position-try-order.most-width
+  - css.properties.position-try-order.normal
 
   # baseline: false
   # support:
@@ -248,9 +259,9 @@ compat_features:
   #   chrome: "125"
   #   chrome_android: "125"
   #   edge: "125"
+  #   firefox: preview
   - css.properties.position-visibility
   - css.properties.position-visibility.always
-  - css.properties.position-visibility.anchors-visible
   - css.properties.position-visibility.no-overflow
 
   # baseline: false
@@ -258,6 +269,7 @@ compat_features:
   #   chrome: "133"
   #   chrome_android: "133"
   #   edge: "133"
+  #   firefox: preview
   - api.HTMLButtonElement.popoverTargetElement.implicit_anchor_reference
   - api.HTMLInputElement.popoverTargetElement.implicit_anchor_reference
   - html.elements.button.popovertarget.implicit_anchor_reference
@@ -265,6 +277,18 @@ compat_features:
 
   # baseline: false
   # support:
+  #   chrome: "143"
+  #   chrome_android: "143"
+  #   edge: "143"
+  #   firefox: preview
+  - css.properties.position-area.span-self-x-end
+  - css.properties.position-area.span-self-x-start
+  - css.properties.position-area.span-self-y-end
+  - css.properties.position-area.span-self-y-start
+
+  # baseline: false
+  # support:
+  #   firefox: preview
   #   safari: "26"
   #   safari_ios: "26"
   - css.properties.position-anchor.auto
@@ -285,10 +309,21 @@ compat_features:
   - css.properties.position-area.span-all
   - css.properties.position-area.top
   - css.properties.position-area.x-end
-  - css.properties.position-area.x-self-end
-  - css.properties.position-area.x-self-start
   - css.properties.position-area.x-start
   - css.properties.position-area.y-end
-  - css.properties.position-area.y-self-end
-  - css.properties.position-area.y-self-start
   - css.properties.position-area.y-start
+
+  # baseline: false
+  # support:
+  #   chrome: "125"
+  #   chrome_android: "125"
+  #   edge: "125"
+  - css.properties.position-visibility.anchors-visible
+
+  # baseline: false
+  # support:
+  #   firefox: preview
+  - css.properties.position-area.self-x-end
+  - css.properties.position-area.self-x-start
+  - css.properties.position-area.self-y-end
+  - css.properties.position-area.self-y-start
