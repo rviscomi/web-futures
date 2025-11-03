@@ -5,7 +5,10 @@ status:
   baseline: false
   support:
     chrome: "142"
+<<<<<<< HEAD
     edge: "142"
+=======
+>>>>>>> 767ddec95039d4ddea882cf70011dd2ce6375b20
 compat_features:
   # baseline: false
   # support:
@@ -20,7 +23,10 @@ compat_features:
   # baseline: false
   # support:
   #   chrome: "142"
+<<<<<<< HEAD
   #   edge: "142"
+=======
+>>>>>>> 767ddec95039d4ddea882cf70011dd2ce6375b20
   - api.SpeechRecognition.phrases
   - api.SpeechRecognitionPhrase
   - api.SpeechRecognitionPhrase.SpeechRecognitionPhrase
