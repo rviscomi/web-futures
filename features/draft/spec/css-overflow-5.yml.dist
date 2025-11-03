@@ -5,10 +5,7 @@ status:
   baseline: false
   support:
     chrome: "142"
-<<<<<<< HEAD
     edge: "142"
-=======
->>>>>>> 767ddec95039d4ddea882cf70011dd2ce6375b20
 compat_features:
   # baseline: low
   # baseline_low_date: 2025-09-15
@@ -64,13 +61,3 @@ compat_features:
   #   chrome: "135"
   #   edge: "135"
   - css.selectors.target-current
-<<<<<<< HEAD
-=======
-
-  # baseline: false
-  # support:
-  #   chrome: "142"
-  #   chrome_android: "142"
-  - css.selectors.target-after
-  - css.selectors.target-before
->>>>>>> 767ddec95039d4ddea882cf70011dd2ce6375b20

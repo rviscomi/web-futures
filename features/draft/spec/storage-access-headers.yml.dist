@@ -7,6 +7,7 @@ status:
     chrome: "133"
     chrome_android: "133"
     edge: "133"
+    firefox: preview
 compat_features:
   - http.headers.Activate-Storage-Access
   - http.headers.Sec-Fetch-Storage-Access

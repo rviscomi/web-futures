@@ -71,10 +71,7 @@ compat_features:
   # support:
   #   chrome: "142"
   #   chrome_android: "142"
-<<<<<<< HEAD
   #   edge: "142"
-=======
->>>>>>> 767ddec95039d4ddea882cf70011dd2ce6375b20
   #   firefox: "20"
   #   firefox_android: "20"
   - api.SVGAElement.download

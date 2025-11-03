@@ -6,10 +6,7 @@ status:
   support:
     chrome: "142"
     chrome_android: "142"
-<<<<<<< HEAD
     edge: "142"
-=======
->>>>>>> 767ddec95039d4ddea882cf70011dd2ce6375b20
 compat_features:
   # baseline: high
   # baseline_low_date: 2020-01-15
@@ -63,10 +60,7 @@ compat_features:
   # support:
   #   chrome: "142"
   #   chrome_android: "142"
-<<<<<<< HEAD
   #   edge: "142"
-=======
->>>>>>> 767ddec95039d4ddea882cf70011dd2ce6375b20
   - css.properties.interest-delay
   - css.properties.interest-delay-end
   - css.properties.interest-delay-end.normal

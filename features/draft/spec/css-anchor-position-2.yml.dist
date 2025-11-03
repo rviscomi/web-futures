@@ -12,6 +12,17 @@ status:
 compat_features:
   # baseline: false
   # support:
+  #   chrome: "129"
+  #   chrome_android: "129"
+  #   edge: "129"
+  #   firefox: preview
+  #   safari: "26"
+  #   safari_ios: "26"
+  - css.properties.position-area.span-left
+  - css.properties.position-area.span-right
+
+  # baseline: false
+  # support:
   #   chrome: "125"
   #   chrome_android: "125"
   #   edge: "125"
@@ -30,8 +41,6 @@ compat_features:
   #   edge: "129"
   #   safari: "26"
   #   safari_ios: "26"
-  - css.properties.position-area.span-left
-  - css.properties.position-area.span-right
   - css.properties.position-try-fallbacks.block-end
   - css.properties.position-try-fallbacks.block-start
   - css.properties.position-try-fallbacks.bottom

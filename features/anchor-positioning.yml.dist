@@ -314,7 +314,6 @@ compat_features:
   - css.properties.position-area.y-start
 
   # baseline: false
-<<<<<<< HEAD
   # support:
   #   chrome: "125"
   #   chrome_android: "125"
@@ -324,17 +323,7 @@ compat_features:
   # baseline: false
   # support:
   #   firefox: preview
-=======
-  # support: {}
->>>>>>> 767ddec95039d4ddea882cf70011dd2ce6375b20
   - css.properties.position-area.self-x-end
   - css.properties.position-area.self-x-start
   - css.properties.position-area.self-y-end
   - css.properties.position-area.self-y-start
-<<<<<<< HEAD
-=======
-  - css.properties.position-area.span-self-x-end
-  - css.properties.position-area.span-self-x-start
-  - css.properties.position-area.span-self-y-end
-  - css.properties.position-area.span-self-y-start
->>>>>>> 767ddec95039d4ddea882cf70011dd2ce6375b20

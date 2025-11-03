@@ -6,10 +6,7 @@ status:
   support:
     chrome: "142"
     chrome_android: "142"
-<<<<<<< HEAD
     edge: "142"
-=======
->>>>>>> 767ddec95039d4ddea882cf70011dd2ce6375b20
 compat_features:
   - css.selectors.interest-source
   - css.selectors.interest-target

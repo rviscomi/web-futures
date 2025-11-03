@@ -675,6 +675,16 @@ compat_features:
 
   # baseline: false
   # support:
+  #   chrome: "138"
+  #   chrome_android: "138"
+  #   edge: "138"
+  #   firefox: preview
+  #   safari: "26"
+  #   safari_ios: "26"
+  - api.WorkerGlobalScope.importScripts.enforces_trusted_types
+
+  # baseline: false
+  # support:
   #   chrome: "139"
   #   chrome_android: "139"
   #   edge: "139"
@@ -802,15 +812,6 @@ compat_features:
   #   safari: "18.4"
   #   safari_ios: "18.4"
   - html.elements.script.type.importmap.multiple_import_maps
-
-  # baseline: false
-  # support:
-  #   chrome: "138"
-  #   chrome_android: "138"
-  #   edge: "138"
-  #   safari: "26"
-  #   safari_ios: "26"
-  - api.WorkerGlobalScope.importScripts.enforces_trusted_types
 
   # baseline: false
   # support:

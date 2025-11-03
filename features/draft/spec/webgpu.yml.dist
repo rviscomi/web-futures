@@ -39,8 +39,6 @@ compat_features:
   # support:
   #   chrome_android: "137"
   - api.GPUCommandEncoder.copyBufferToBuffer.offset_and_size_parameter_optional
-<<<<<<< HEAD
-=======
   - api.GPUDevice.createBindGroup.descriptor_entries_resource_parameter_accepts_GPUTextureView
 
   # baseline: false
@@ -53,7 +51,6 @@ compat_features:
   #   chrome_android: "140"
   - api.GPUCommandEncoder.beginRenderPass.accepts_GPUTexture_resources
   - api.GPUDevice.createBindGroup.descriptor_entries_resource_parameter_accepts_GPUTexture_resource
->>>>>>> 767ddec95039d4ddea882cf70011dd2ce6375b20
 
   # baseline: false
   # support:
