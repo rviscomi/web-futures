@@ -1,0 +1,31 @@
+diff --git a/index.ts b/index.ts
+index 7124b916..e377303a 100644
+--- a/index.ts
++++ b/index.ts
+@@ -248,7 +248,7 @@ const compat = new Compat();
+ const browsers: Partial<WebFeaturesData["browsers"]> = {};
+ for (const browser of coreBrowserSet.map(identifier => compat.browser(identifier))) {
+     const { id, name } = browser;
+-    const releases = browser.releases.filter(release => !release.isPrerelease()).map(release => ({
++    const releases = browser.releases.map(release => ({
+         version: release.version,
+         date: String(release.date),
+     }))
+diff --git a/packages/web-features/package.json b/packages/web-features/package.json
+index dbc89823..7801b5a7 100644
+--- a/packages/web-features/package.json
++++ b/packages/web-features/package.json
+@@ -1,11 +1,11 @@
+ {
+-  "name": "web-features",
++  "name": "web-futures",
+   "description": "Curated list of Web platform features",
+   "version": "3.7.0",
+   "license": "Apache-2.0",
+   "repository": {
+     "type": "git",
+-    "url": "git+https://github.com/web-platform-dx/web-features.git",
++    "url": "git+https://github.com/rviscomi/web-futures.git",
+     "directory": "packages/web-features"
+   },
+   "type": "module",
