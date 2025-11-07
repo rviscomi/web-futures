@@ -692,7 +692,6 @@ compat_features:
   - webdriver.bidi.browser.setDownloadBehavior
   - webdriver.bidi.browser.setDownloadBehavior.downloadBehavior_parameter
   - webdriver.bidi.browser.setDownloadBehavior.userContexts_parameter
-<<<<<<< HEAD
 
   # baseline: false
   # support:
@@ -704,12 +703,6 @@ compat_features:
   - webdriver.bidi.emulation.setNetworkConditions.networkConditions_parameter
   - webdriver.bidi.emulation.setNetworkConditions.networkConditions_parameter.offline
   - webdriver.bidi.emulation.setNetworkConditions.userContexts_parameter
-=======
-  - webdriver.bidi.emulation.setUserAgentOverride
-  - webdriver.bidi.emulation.setUserAgentOverride.contexts_parameter
-  - webdriver.bidi.emulation.setUserAgentOverride.userAgent_parameter
-  - webdriver.bidi.emulation.setUserAgentOverride.userContexts_parameter
->>>>>>> e36bd696d67ec6f23d19b223e67b02ff1e11d512
 
   # baseline: false
   # support:

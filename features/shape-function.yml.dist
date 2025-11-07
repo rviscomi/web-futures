@@ -7,6 +7,7 @@ status:
     chrome: "135"
     chrome_android: "135"
     edge: "135"
+    firefox: preview
     safari: "18.4"
     safari_ios: "18.4"
 compat_features:
