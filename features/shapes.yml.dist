@@ -14,24 +14,13 @@ status:
     safari: "10.1"
     safari_ios: "10.3"
 compat_features:
-  # ⬇️ Same status as overall feature ⬇️
-  # baseline: high
-  # baseline_low_date: 2020-01-15
-  # baseline_high_date: 2022-07-15
-  # support:
-  #   chrome: "37"
-  #   chrome_android: "37"
-  #   edge: "79"
-  #   firefox: "54"
-  #   firefox_android: "54"
-  #   safari: "10.1"
-  #   safari_ios: "10.3"
   - css.types.basic-shape
   - css.types.basic-shape.animation
   - css.types.basic-shape.circle
   - css.types.basic-shape.ellipse
   - css.types.basic-shape.inset
   - css.types.basic-shape.polygon
+<<<<<<< HEAD
 
   # baseline: low
   # baseline_low_date: 2024-01-23
@@ -55,3 +44,5 @@ compat_features:
   #   safari: "18.4"
   #   safari_ios: "18.4"
   - css.types.basic-shape.shape
+=======
+>>>>>>> e36bd696d67ec6f23d19b223e67b02ff1e11d512
