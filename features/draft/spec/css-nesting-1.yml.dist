@@ -4,7 +4,12 @@
 status:
   baseline: false
   support:
+    chrome: "143"
+    chrome_android: "143"
+    edge: "143"
     firefox: "142"
     firefox_android: "142"
+    safari: "26.2"
+    safari_ios: "26.2"
 compat_features:
   - css.selectors.nesting.at-scope

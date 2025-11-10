@@ -13,6 +13,7 @@ compat_features:
   #   chrome: "83"
   #   chrome_android: "83"
   #   edge: "83"
+  #   firefox: preview
   #   safari: "26"
   #   safari_ios: "26"
   - api.Element.setAttribute.enforces_trusted_types

@@ -10,7 +10,26 @@ status:
     safari: "17.4"
     safari_ios: "17.4"
 compat_features:
+  # baseline: low
+  # baseline_low_date: 2025-12-09
+  # support:
+  #   chrome: "118"
+  #   chrome_android: "118"
+  #   edge: "118"
+  #   firefox: "146"
+  #   firefox_android: "146"
+  #   safari: "17.4"
+  #   safari_ios: "17.4"
+  - css.at-rules.scope
+
+  # ⬇️ Same status as overall feature ⬇️
+  # baseline: false
+  # support:
+  #   chrome: "118"
+  #   chrome_android: "118"
+  #   edge: "118"
+  #   safari: "17.4"
+  #   safari_ios: "17.4"
   - api.CSSScopeRule
   - api.CSSScopeRule.end
   - api.CSSScopeRule.start
-  - css.at-rules.scope

@@ -213,5 +213,6 @@ compat_features:
   - html.elements.select.size
 
   # baseline: false
-  # support: {}
+  # support:
+  #   firefox_android: "145"
   - html.elements.select.hr_in_select

@@ -676,6 +676,16 @@ compat_features:
 
   # baseline: false
   # support:
+  #   chrome: "97"
+  #   chrome_android: "97"
+  #   edge: "97"
+  #   firefox: preview
+  #   safari: "26"
+  #   safari_ios: "26"
+  - api.Worker.Worker.enforces_trusted_types
+
+  # baseline: false
+  # support:
   #   chrome: "138"
   #   chrome_android: "138"
   #   edge: "138"
@@ -781,11 +791,11 @@ compat_features:
   # baseline: false
   # support:
   #   chrome: "97"
-  #   chrome_android: "97"
   #   edge: "97"
+  #   firefox: preview
   #   safari: "26"
   #   safari_ios: "26"
-  - api.Worker.Worker.enforces_trusted_types
+  - api.SharedWorker.SharedWorker.enforces_trusted_types
 
   # baseline: false
   # support:
@@ -839,14 +849,6 @@ compat_features:
   #   edge: "96"
   #   firefox: "119"
   - http.headers.Cross-Origin-Embedder-Policy.credentialless
-
-  # baseline: false
-  # support:
-  #   chrome: "97"
-  #   edge: "97"
-  #   safari: "26"
-  #   safari_ios: "26"
-  - api.SharedWorker.SharedWorker.enforces_trusted_types
 
   # baseline: false
   # support:
@@ -1017,9 +1019,13 @@ compat_features:
   #   firefox_android: "140"
   - html.elements.h1.no_ua_styles_in_article_aside_nav_section
 
+  # baseline: false
+  # support:
+  #   firefox_android: "145"
+  - html.elements.hr.hr_in_select
+
   # ⬇️ Same status as overall feature ⬇️
   # baseline: false
   # support: {}
   - api.Navigator.authentication
-  - html.elements.hr.hr_in_select
   - html.elements.track.kind.descriptions
