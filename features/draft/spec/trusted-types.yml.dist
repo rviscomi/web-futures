@@ -4,10 +4,13 @@
 status:
   baseline: false
   support:
+<<<<<<< HEAD
     chrome: "124"
     chrome_android: "124"
     edge: "124"
     firefox: preview
+=======
+>>>>>>> 141d128d7e7e3e5a1b1826bd2cc233a691b6a46c
     safari: "26"
     safari_ios: "26"
 compat_features:
@@ -51,7 +54,6 @@ compat_features:
   - api.HTMLIFrameElement.srcdoc.enforces_trusted_types
   - api.Range.createContextualFragment.enforces_trusted_types
 
-  # ⬇️ Same status as overall feature ⬇️
   # baseline: false
   # support:
   #   chrome: "124"
@@ -63,3 +65,10 @@ compat_features:
   - api.Document.parseHTMLUnsafe_static.enforces_trusted_types
   - api.Element.setHTMLUnsafe.enforces_trusted_types
   - api.ShadowRoot.setHTMLUnsafe.enforces_trusted_types
+
+  # ⬇️ Same status as overall feature ⬇️
+  # baseline: false
+  # support:
+  #   safari: "26"
+  #   safari_ios: "26"
+  - javascript.builtins.Function.Function.enforces_trusted_types
