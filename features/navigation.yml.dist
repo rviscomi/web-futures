@@ -7,6 +7,7 @@ status:
     chrome: "102"
     chrome_android: "102"
     edge: "102"
+    firefox: preview
 compat_features:
   # ⬇️ Same status as overall feature ⬇️
   # baseline: false
@@ -14,6 +15,7 @@ compat_features:
   #   chrome: "102"
   #   chrome_android: "102"
   #   edge: "102"
+  #   firefox: preview
   - api.NavigateEvent
   - api.NavigateEvent.NavigateEvent
   - api.NavigateEvent.destination
@@ -63,13 +65,13 @@ compat_features:
   - api.NavigationTransition.finished
   - api.NavigationTransition.from
   - api.NavigationTransition.navigationType
-  - api.Window.navigation
 
   # baseline: false
   # support:
   #   chrome: "105"
   #   chrome_android: "105"
   #   edge: "105"
+  #   firefox: preview
   - api.NavigateEvent.canIntercept
   - api.NavigateEvent.intercept
   - api.NavigateEvent.scroll
@@ -79,6 +81,7 @@ compat_features:
   #   chrome: "118"
   #   chrome_android: "118"
   #   edge: "118"
+  #   firefox: preview
   - api.NavigateEvent.hasUAVisualTransition
 
   # baseline: false
@@ -86,8 +89,16 @@ compat_features:
   #   chrome: "123"
   #   chrome_android: "123"
   #   edge: "123"
+  #   firefox: preview
   - api.Navigation.activation
   - api.NavigationActivation
   - api.NavigationActivation.entry
   - api.NavigationActivation.from
   - api.NavigationActivation.navigationType
+
+  # baseline: false
+  # support:
+  #   chrome: "102"
+  #   chrome_android: "102"
+  #   edge: "102"
+  - api.Window.navigation

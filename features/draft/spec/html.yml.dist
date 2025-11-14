@@ -676,7 +676,6 @@ compat_features:
 
   # baseline: false
   # support:
-<<<<<<< HEAD
   #   chrome: "97"
   #   chrome_android: "97"
   #   edge: "97"
@@ -684,6 +683,16 @@ compat_features:
   #   safari: "26"
   #   safari_ios: "26"
   - api.Worker.Worker.enforces_trusted_types
+
+  # baseline: false
+  # support:
+  #   chrome: "119"
+  #   edge: "119"
+  #   firefox: "122"
+  #   firefox_android: "145"
+  #   safari: "17"
+  #   safari_ios: "17.4"
+  - html.elements.hr.hr_in_select
 
   # baseline: false
   # support:
@@ -705,15 +714,6 @@ compat_features:
   #   safari: preview
   - api.HTMLButtonElement.command.request-close
   - html.elements.button.command.request-close
-=======
-  #   chrome: "119"
-  #   edge: "119"
-  #   firefox: "122"
-  #   firefox_android: "145"
-  #   safari: "17"
-  #   safari_ios: "17.4"
-  - html.elements.hr.hr_in_select
->>>>>>> 12f14e6d65c468c3af07f959823f6e750cf8a520
 
   # baseline: false
   # support:
@@ -854,15 +854,6 @@ compat_features:
 
   # baseline: false
   # support:
-  #   chrome: "140"
-  #   chrome_android: "140"
-  #   edge: "140"
-  #   firefox: "145"
-  #   firefox_android: "145"
-  - api.ToggleEvent.source
-
-  # baseline: false
-  # support:
   #   chrome: "96"
   #   chrome_android: "96"
   #   edge: "96"
@@ -893,6 +884,17 @@ compat_features:
   #   safari: "17.2"
   #   safari_ios: "17.2"
   - api.HTMLBaseElement.href.forbid_data_javascript_urls
+
+  # baseline: false
+  # support:
+  #   chrome: "141"
+  #   chrome_android: "141"
+  #   edge: "141"
+  #   firefox: preview
+  - api.NavigateEvent.intercept.precommitHandler_option
+  - api.NavigationPrecommitController
+  - api.NavigationPrecommitController.redirect
+  - api.NavigationTransition.committed
 
   # baseline: false
   # support:
@@ -970,6 +972,13 @@ compat_features:
 
   # baseline: false
   # support:
+  #   chrome: "135"
+  #   edge: "135"
+  #   firefox: preview
+  - api.NavigateEvent.sourceElement
+
+  # baseline: false
+  # support:
   #   chrome: "136"
   #   chrome_android: "136"
   #   edge: "136"
@@ -983,16 +992,6 @@ compat_features:
   - api.HTMLCanvasElement.getContext.2d_context.options_colorType_parameter
   - api.ImageData.ImageData.settings_parameter.pixelFormat_option
   - api.ImageData.pixelFormat
-
-  # baseline: false
-  # support:
-  #   chrome: "141"
-  #   chrome_android: "141"
-  #   edge: "141"
-  - api.NavigateEvent.intercept.precommitHandler_option
-  - api.NavigationPrecommitController
-  - api.NavigationPrecommitController.redirect
-  - api.NavigationTransition.committed
 
   # baseline: false
   # support:
@@ -1028,20 +1027,9 @@ compat_features:
 
   # baseline: false
   # support:
-  #   chrome: "135"
-  #   edge: "135"
-  - api.NavigateEvent.sourceElement
-
-  # baseline: false
-  # support:
   #   firefox: "140"
   #   firefox_android: "140"
   - html.elements.h1.no_ua_styles_in_article_aside_nav_section
-
-  # baseline: false
-  # support:
-  #   firefox_android: "145"
-  - html.elements.hr.hr_in_select
 
   # ⬇️ Same status as overall feature ⬇️
   # baseline: false

@@ -221,11 +221,3 @@ compat_features:
   #   firefox_android: "4"
   #   safari: "3"
   - html.elements.select.size
-<<<<<<< HEAD
-
-  # baseline: false
-  # support:
-  #   firefox_android: "145"
-  - html.elements.select.hr_in_select
-=======
->>>>>>> 12f14e6d65c468c3af07f959823f6e750cf8a520
