@@ -586,6 +586,7 @@ compat_features:
 
   # baseline: false
   # support:
+<<<<<<< HEAD
   #   chrome: "142"
   #   chrome_android: "142"
   #   edge: "142"
@@ -595,6 +596,8 @@ compat_features:
 
   # baseline: false
   # support:
+=======
+>>>>>>> 12f14e6d65c468c3af07f959823f6e750cf8a520
   #   chrome: "126"
   #   chrome_android: "126"
   #   edge: "126"
@@ -701,6 +704,7 @@ compat_features:
   - webdriver.bidi.browser.setDownloadBehavior
   - webdriver.bidi.browser.setDownloadBehavior.downloadBehavior_parameter
   - webdriver.bidi.browser.setDownloadBehavior.userContexts_parameter
+<<<<<<< HEAD
 
   # baseline: false
   # support:
@@ -712,6 +716,9 @@ compat_features:
   - webdriver.bidi.emulation.setNetworkConditions.networkConditions_parameter
   - webdriver.bidi.emulation.setNetworkConditions.networkConditions_parameter.offline
   - webdriver.bidi.emulation.setNetworkConditions.userContexts_parameter
+=======
+  - webdriver.bidi.network.getData.dataType_parameter.request
+>>>>>>> 12f14e6d65c468c3af07f959823f6e750cf8a520
 
   # baseline: false
   # support:

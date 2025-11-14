@@ -79,6 +79,13 @@ compat_features:
   - api.TrustedTypePolicyFactory.isHTML
   - api.TrustedTypePolicyFactory.isScript
   - api.TrustedTypePolicyFactory.isScriptURL
+<<<<<<< HEAD
+=======
+  - api.setInterval.code_param_enforces_trusted_types
+  - api.setTimeout.code_param_enforces_trusted_types
+  - api.trustedTypes
+  - http.headers.Content-Security-Policy.trusted-types
+>>>>>>> 12f14e6d65c468c3af07f959823f6e750cf8a520
 
   # baseline: false
   # support:
