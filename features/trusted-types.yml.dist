@@ -11,18 +11,6 @@ status:
     safari: "26"
     safari_ios: "26"
 compat_features:
-  # baseline: low
-  # baseline_low_date: 2025-11-11
-  # support:
-  #   chrome: "83"
-  #   chrome_android: "83"
-  #   edge: "83"
-  #   firefox: "145"
-  #   firefox_android: "145"
-  #   safari: "26"
-  #   safari_ios: "26"
-  - http.headers.Content-Security-Policy.require-trusted-types-for
-
   # ⬇️ Same status as overall feature ⬇️
   # baseline: false
   # support:
@@ -79,6 +67,14 @@ compat_features:
   - api.TrustedTypePolicyFactory.isHTML
   - api.TrustedTypePolicyFactory.isScript
   - api.TrustedTypePolicyFactory.isScriptURL
+<<<<<<< HEAD
+=======
+  - api.setInterval.code_param_enforces_trusted_types
+  - api.setTimeout.code_param_enforces_trusted_types
+  - api.trustedTypes
+  - http.headers.Content-Security-Policy.require-trusted-types-for
+  - http.headers.Content-Security-Policy.trusted-types
+>>>>>>> 074a20af8dc8bd0c74e2651a8cc75a2512f36edc
 
   # baseline: false
   # support:
