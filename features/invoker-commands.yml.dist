@@ -11,12 +11,31 @@ status:
     firefox_android: "144"
     safari: preview
 compat_features:
+  # baseline: false
+  # support:
+  #   chrome: "135"
+  #   chrome_android: "135"
+  #   edge: "135"
+  #   firefox: "144"
+  #   firefox_android: "144"
+  #   safari: "26.2"
+  #   safari_ios: "26.2"
   - api.CommandEvent
   - api.CommandEvent.CommandEvent
   - api.CommandEvent.command
   - api.CommandEvent.source
   - api.HTMLButtonElement.command
   - api.HTMLButtonElement.commandForElement
-  - api.HTMLElement.command_event
   - html.elements.button.command
   - html.elements.button.commandfor
+
+  # ⬇️ Same status as overall feature ⬇️
+  # baseline: false
+  # support:
+  #   chrome: "135"
+  #   chrome_android: "135"
+  #   edge: "135"
+  #   firefox: "144"
+  #   firefox_android: "144"
+  #   safari: preview
+  - api.HTMLElement.command_event

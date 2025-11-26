@@ -887,6 +887,14 @@ compat_features:
 
   # baseline: false
   # support:
+  #   firefox: "140"
+  #   firefox_android: "140"
+  #   safari: "26.2"
+  #   safari_ios: "26.2"
+  - html.elements.h1.no_ua_styles_in_article_aside_nav_section
+
+  # baseline: false
+  # support:
   #   chrome: "141"
   #   chrome_android: "141"
   #   edge: "141"
@@ -1024,12 +1032,6 @@ compat_features:
   #   firefox: "74"
   #   firefox_android: "79"
   - html.elements.iframe.allow.document-domain
-
-  # baseline: false
-  # support:
-  #   firefox: "140"
-  #   firefox_android: "140"
-  - html.elements.h1.no_ua_styles_in_article_aside_nav_section
 
   # ⬇️ Same status as overall feature ⬇️
   # baseline: false
