@@ -3,15 +3,8 @@
 
 status:
   baseline: false
-  support:
-    chrome: "125"
-    chrome_android: "125"
-    edge: "125"
-    firefox: preview
-    safari: "26"
-    safari_ios: "26"
+  support: {}
 compat_features:
-  # ⬇️ Same status as overall feature ⬇️
   # baseline: false
   # support:
   #   chrome: "125"
@@ -127,6 +120,18 @@ compat_features:
 
   # baseline: false
   # support:
+  #   chrome: "125"
+  #   chrome_android: "125"
+  #   edge: "125"
+  #   firefox: preview
+  #   safari: "26.2"
+  #   safari_ios: "26.2"
+  - css.properties.position-visibility
+  - css.properties.position-visibility.always
+  - css.properties.position-visibility.no-overflow
+
+  # baseline: false
+  # support:
   #   chrome: "128"
   #   chrome_android: "128"
   #   edge: "128"
@@ -229,6 +234,19 @@ compat_features:
 
   # baseline: false
   # support:
+  #   chrome: "143"
+  #   chrome_android: "143"
+  #   edge: "143"
+  #   firefox: preview
+  #   safari: "26.2"
+  #   safari_ios: "26.2"
+  - css.properties.position-area.span-self-x-end
+  - css.properties.position-area.span-self-x-start
+  - css.properties.position-area.span-self-y-end
+  - css.properties.position-area.span-self-y-start
+
+  # baseline: false
+  # support:
   #   chrome: "125"
   #   chrome_android: "125"
   #   edge: "125"
@@ -247,22 +265,21 @@ compat_features:
 
   # baseline: false
   # support:
+  #   chrome: "125"
+  #   chrome_android: "125"
+  #   edge: "125"
+  #   safari: "26.2"
+  #   safari_ios: "26.2"
+  - css.properties.position-visibility.anchors-visible
+
+  # baseline: false
+  # support:
   #   chrome: "137"
   #   chrome_android: "137"
   #   edge: "137"
   #   firefox: "144"
   #   firefox_android: "144"
   - api.HTMLElement.showPopover.options_source_parameter.implicit_anchor_reference
-
-  # baseline: false
-  # support:
-  #   chrome: "125"
-  #   chrome_android: "125"
-  #   edge: "125"
-  #   firefox: preview
-  - css.properties.position-visibility
-  - css.properties.position-visibility.always
-  - css.properties.position-visibility.no-overflow
 
   # baseline: false
   # support:
@@ -274,17 +291,6 @@ compat_features:
   - api.HTMLInputElement.popoverTargetElement.implicit_anchor_reference
   - html.elements.button.popovertarget.implicit_anchor_reference
   - html.elements.input.popovertarget.implicit_anchor_reference
-
-  # baseline: false
-  # support:
-  #   chrome: "143"
-  #   chrome_android: "143"
-  #   edge: "143"
-  #   firefox: preview
-  - css.properties.position-area.span-self-x-end
-  - css.properties.position-area.span-self-x-start
-  - css.properties.position-area.span-self-y-end
-  - css.properties.position-area.span-self-y-start
 
   # baseline: false
   # support:
@@ -315,14 +321,9 @@ compat_features:
 
   # baseline: false
   # support:
-  #   chrome: "125"
-  #   chrome_android: "125"
-  #   edge: "125"
-  - css.properties.position-visibility.anchors-visible
-
-  # baseline: false
-  # support:
   #   firefox: preview
+  #   safari: "26.2"
+  #   safari_ios: "26.2"
   - css.properties.position-area.self-x-end
   - css.properties.position-area.self-x-start
   - css.properties.position-area.self-y-end
