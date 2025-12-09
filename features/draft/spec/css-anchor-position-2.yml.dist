@@ -3,7 +3,9 @@
 
 status:
   baseline: false
-  support: {}
+  support:
+    safari: "26.2"
+    safari_ios: "26.2"
 compat_features:
   # baseline: false
   # support:
@@ -138,7 +140,9 @@ compat_features:
 
   # ⬇️ Same status as overall feature ⬇️
   # baseline: false
-  # support: {}
+  # support:
+  #   safari: "26.2"
+  #   safari_ios: "26.2"
   - css.properties.position-try-fallbacks.flip-x
   - css.properties.position-try-fallbacks.flip-y
   - css.properties.position-try.flip-x

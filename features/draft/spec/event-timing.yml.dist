@@ -4,7 +4,12 @@
 status:
   baseline: false
   support:
+    chrome: "144"
+    chrome_android: "144"
+    edge: "144"
     firefox: "144"
     firefox_android: "144"
+    safari: "26.2"
+    safari_ios: "26.2"
 compat_features:
   - api.Performance.interactionCount

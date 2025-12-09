@@ -8,6 +8,8 @@ status:
     chrome_android: "102"
     edge: "102"
     firefox: preview
+    safari: "26.2"
+    safari_ios: "26.2"
 compat_features:
   # ⬇️ Same status as overall feature ⬇️
   # baseline: false
@@ -16,6 +18,8 @@ compat_features:
   #   chrome_android: "102"
   #   edge: "102"
   #   firefox: preview
+  #   safari: "26.2"
+  #   safari_ios: "26.2"
   - api.NavigateEvent
   - api.NavigateEvent.NavigateEvent
   - api.NavigateEvent.destination
@@ -31,13 +35,9 @@ compat_features:
   - api.Navigation.canGoBack
   - api.Navigation.canGoForward
   - api.Navigation.currentEntry
-  - api.Navigation.currententrychange_event
   - api.Navigation.entries
   - api.Navigation.forward
   - api.Navigation.navigate
-  - api.Navigation.navigate_event
-  - api.Navigation.navigateerror_event
-  - api.Navigation.navigatesuccess_event
   - api.Navigation.reload
   - api.Navigation.transition
   - api.Navigation.traverseTo
@@ -54,7 +54,6 @@ compat_features:
   - api.NavigationDestination.sameDocument
   - api.NavigationDestination.url
   - api.NavigationHistoryEntry
-  - api.NavigationHistoryEntry.dispose_event
   - api.NavigationHistoryEntry.getState
   - api.NavigationHistoryEntry.id
   - api.NavigationHistoryEntry.index
@@ -72,6 +71,8 @@ compat_features:
   #   chrome_android: "105"
   #   edge: "105"
   #   firefox: preview
+  #   safari: "26.2"
+  #   safari_ios: "26.2"
   - api.NavigateEvent.canIntercept
   - api.NavigateEvent.intercept
   - api.NavigateEvent.scroll
@@ -82,6 +83,8 @@ compat_features:
   #   chrome_android: "118"
   #   edge: "118"
   #   firefox: preview
+  #   safari: "26.2"
+  #   safari_ios: "26.2"
   - api.NavigateEvent.hasUAVisualTransition
 
   # baseline: false
@@ -90,6 +93,8 @@ compat_features:
   #   chrome_android: "123"
   #   edge: "123"
   #   firefox: preview
+  #   safari: "26.2"
+  #   safari_ios: "26.2"
   - api.Navigation.activation
   - api.NavigationActivation
   - api.NavigationActivation.entry
@@ -101,4 +106,18 @@ compat_features:
   #   chrome: "102"
   #   chrome_android: "102"
   #   edge: "102"
+  #   safari: "26.2"
+  #   safari_ios: "26.2"
   - api.Window.navigation
+
+  # baseline: false
+  # support:
+  #   chrome: "102"
+  #   chrome_android: "102"
+  #   edge: "102"
+  #   firefox: preview
+  - api.Navigation.currententrychange_event
+  - api.Navigation.navigate_event
+  - api.Navigation.navigateerror_event
+  - api.Navigation.navigatesuccess_event
+  - api.NavigationHistoryEntry.dispose_event

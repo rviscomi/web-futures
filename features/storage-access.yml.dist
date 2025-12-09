@@ -34,6 +34,8 @@ compat_features:
   #   edge: "85"
   #   firefox: "117"
   #   firefox_android: "117"
+  #   safari: "26.2"
+  #   safari_ios: "26.2"
   - api.Permissions.permission_storage-access
 
   # baseline: false

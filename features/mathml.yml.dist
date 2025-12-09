@@ -275,7 +275,8 @@ compat_features:
   #   edge: "109"
   #   firefox: "146"
   #   firefox_android: "146"
-  #   safari: preview
+  #   safari: "26.2"
+  #   safari_ios: "26.2"
   - css.properties.math-shift
 
   # baseline: false

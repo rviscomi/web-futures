@@ -9,6 +9,8 @@ status:
     edge: "79"
     firefox: "89"
     firefox_android: "89"
+    safari: "26.2"
+    safari_ios: "26.2"
 compat_features:
   # ⬇️ Same status as overall feature ⬇️
   # baseline: false
@@ -18,6 +20,8 @@ compat_features:
   #   edge: "79"
   #   firefox: "89"
   #   firefox_android: "89"
+  #   safari: "26.2"
+  #   safari_ios: "26.2"
   - api.PerformanceEventTiming
   - api.PerformanceEventTiming.cancelable
   - api.PerformanceEventTiming.processingEnd
@@ -31,6 +35,8 @@ compat_features:
   #   edge: "85"
   #   firefox: "89"
   #   firefox_android: "89"
+  #   safari: "26.2"
+  #   safari_ios: "26.2"
   - api.EventCounts
   - api.EventCounts.@@iterator
   - api.EventCounts.entries
@@ -50,4 +56,6 @@ compat_features:
   #   edge: "96"
   #   firefox: "144"
   #   firefox_android: "144"
+  #   safari: "26.2"
+  #   safari_ios: "26.2"
   - api.PerformanceEventTiming.interactionId

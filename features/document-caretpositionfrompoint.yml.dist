@@ -9,6 +9,8 @@ status:
     edge: "128"
     firefox: "20"
     firefox_android: "20"
+    safari: "26.2"
+    safari_ios: "26.2"
 compat_features:
   # ⬇️ Same status as overall feature ⬇️
   # baseline: false
@@ -18,6 +20,8 @@ compat_features:
   #   edge: "128"
   #   firefox: "20"
   #   firefox_android: "20"
+  #   safari: "26.2"
+  #   safari_ios: "26.2"
   - api.CaretPosition
   - api.CaretPosition.offset
   - api.CaretPosition.offsetNode
@@ -30,6 +34,8 @@ compat_features:
   #   edge: "128"
   #   firefox: "23"
   #   firefox_android: "23"
+  #   safari: "26.2"
+  #   safari_ios: "26.2"
   - api.CaretPosition.getClientRect
 
   # baseline: false
@@ -38,4 +44,6 @@ compat_features:
   #   chrome_android: "128"
   #   edge: "128"
   #   firefox: preview
+  #   safari: "26.2"
+  #   safari_ios: "26.2"
   - api.Document.caretPositionFromPoint.options_parameter

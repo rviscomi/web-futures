@@ -48,6 +48,8 @@ compat_features:
   #   edge: "79"
   #   firefox: ≤50
   #   firefox_android: ≤50
+  #   safari: "26.2"
+  #   safari_ios: "26.2"
   - css.properties.text-decoration.wavy
 
   # baseline: false
@@ -57,6 +59,8 @@ compat_features:
   #   edge: "87"
   #   firefox: "70"
   #   firefox_android: "79"
+  #   safari: "26.2"
+  #   safari_ios: "26.2"
   - css.properties.text-decoration.auto
   - css.properties.text-decoration.from-font
 
@@ -67,6 +71,8 @@ compat_features:
   #   edge: "121"
   #   firefox: "137"
   #   firefox_android: "137"
+  #   safari: "26.2"
+  #   safari_ios: "26.2"
   - css.properties.text-decoration.grammar-error
   - css.properties.text-decoration.spelling-error
 

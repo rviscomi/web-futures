@@ -845,6 +845,15 @@ compat_features:
 
   # baseline: false
   # support:
+  #   chrome: "135"
+  #   edge: "135"
+  #   firefox: preview
+  #   safari: "26.2"
+  #   safari_ios: "26.2"
+  - api.NavigateEvent.sourceElement
+
+  # baseline: false
+  # support:
   #   chrome: "140"
   #   chrome_android: "140"
   #   edge: "140"
@@ -977,13 +986,6 @@ compat_features:
   #   chrome_android: "135"
   #   edge: "135"
   - api.HTMLSelectedContentElement
-
-  # baseline: false
-  # support:
-  #   chrome: "135"
-  #   edge: "135"
-  #   firefox: preview
-  - api.NavigateEvent.sourceElement
 
   # baseline: false
   # support:
