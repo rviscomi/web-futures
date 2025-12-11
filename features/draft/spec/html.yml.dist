@@ -696,6 +696,16 @@ compat_features:
 
   # baseline: false
   # support:
+  #   chrome: "135"
+  #   edge: "135"
+  #   firefox: "147"
+  #   firefox_android: "147"
+  #   safari: "26.2"
+  #   safari_ios: "26.2"
+  - api.NavigateEvent.sourceElement
+
+  # baseline: false
+  # support:
   #   chrome: "138"
   #   chrome_android: "138"
   #   edge: "138"
@@ -845,12 +855,14 @@ compat_features:
 
   # baseline: false
   # support:
-  #   chrome: "135"
-  #   edge: "135"
-  #   firefox: preview
-  #   safari: "26.2"
-  #   safari_ios: "26.2"
-  - api.NavigateEvent.sourceElement
+  #   chrome: "141"
+  #   chrome_android: "141"
+  #   edge: "141"
+  #   firefox: "147"
+  #   firefox_android: "147"
+  - api.NavigationPrecommitController
+  - api.NavigationPrecommitController.redirect
+  - api.NavigationTransition.committed
 
   # baseline: false
   # support:
@@ -900,9 +912,6 @@ compat_features:
   #   edge: "141"
   #   firefox: preview
   - api.NavigateEvent.intercept.precommitHandler_option
-  - api.NavigationPrecommitController
-  - api.NavigationPrecommitController.redirect
-  - api.NavigationTransition.committed
 
   # baseline: false
   # support:

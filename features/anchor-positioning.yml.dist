@@ -5,12 +5,14 @@ status:
   baseline: false
   support: {}
 compat_features:
-  # baseline: false
+  # baseline: low
+  # baseline_low_date: 2026-01-13
   # support:
   #   chrome: "125"
   #   chrome_android: "125"
   #   edge: "125"
-  #   firefox: preview
+  #   firefox: "147"
+  #   firefox_android: "147"
   #   safari: "26"
   #   safari_ios: "26"
   - api.CSSPositionTryDescriptors
@@ -85,7 +87,8 @@ compat_features:
   - api.CSSPositionTryRule
   - api.CSSPositionTryRule.name
   - api.CSSPositionTryRule.style
-  - css.at-rules.position-try
+  - css.properties.align-items.anchor-center
+  - css.properties.align-self.anchor-center
   - css.properties.anchor-name
   - css.properties.anchor-name.none
   - css.properties.block-size.anchor-size
@@ -99,6 +102,8 @@ compat_features:
   - css.properties.inset-inline-start.anchor
   - css.properties.inset-inline.anchor
   - css.properties.inset.anchor
+  - css.properties.justify-items.anchor-center
+  - css.properties.justify-self.anchor-center
   - css.properties.left.anchor
   - css.properties.max-block-size.anchor-size
   - css.properties.max-height.anchor-size
@@ -115,27 +120,15 @@ compat_features:
   - css.properties.right.anchor
   - css.properties.top.anchor
   - css.properties.width.anchor-size
-  - css.types.anchor
-  - css.types.anchor-size
 
-  # baseline: false
-  # support:
-  #   chrome: "125"
-  #   chrome_android: "125"
-  #   edge: "125"
-  #   firefox: preview
-  #   safari: "26.2"
-  #   safari_ios: "26.2"
-  - css.properties.position-visibility
-  - css.properties.position-visibility.always
-  - css.properties.position-visibility.no-overflow
-
-  # baseline: false
+  # baseline: low
+  # baseline_low_date: 2026-01-13
   # support:
   #   chrome: "128"
   #   chrome_android: "128"
   #   edge: "128"
-  #   firefox: preview
+  #   firefox: "147"
+  #   firefox_android: "147"
   #   safari: "26"
   #   safari_ios: "26"
   - css.properties.position-try-fallbacks
@@ -145,12 +138,14 @@ compat_features:
   - css.properties.position-try-fallbacks.none
   - css.properties.position-try-fallbacks.position-area
 
-  # baseline: false
+  # baseline: low
+  # baseline_low_date: 2026-01-13
   # support:
   #   chrome: "129"
   #   chrome_android: "129"
   #   edge: "129"
-  #   firefox: preview
+  #   firefox: "147"
+  #   firefox_android: "147"
   #   safari: "26"
   #   safari_ios: "26"
   - api.CSSPositionTryDescriptors.position-area
@@ -178,24 +173,28 @@ compat_features:
   - css.properties.position-area.span-y-start
   - css.properties.position-area.start
 
-  # baseline: false
+  # baseline: low
+  # baseline_low_date: 2026-01-13
   # support:
   #   chrome: "131"
   #   chrome_android: "131"
   #   edge: "131"
-  #   firefox: preview
+  #   firefox: "147"
+  #   firefox_android: "147"
   #   safari: "26"
   #   safari_ios: "26"
   - css.properties.anchor-scope
   - css.properties.anchor-scope.all
   - css.properties.anchor-scope.none
 
-  # baseline: false
+  # baseline: low
+  # baseline_low_date: 2026-01-13
   # support:
   #   chrome: "132"
   #   chrome_android: "132"
   #   edge: "132"
-  #   firefox: preview
+  #   firefox: "147"
+  #   firefox_android: "147"
   #   safari: "26"
   #   safari_ios: "26"
   - css.properties.bottom.anchor-size
@@ -220,6 +219,55 @@ compat_features:
   - css.properties.margin.anchor-size
   - css.properties.right.anchor-size
   - css.properties.top.anchor-size
+
+  # baseline: false
+  # support:
+  #   chrome: "125"
+  #   chrome_android: "125"
+  #   edge: "125"
+  #   firefox: "147"
+  #   firefox_android: "147"
+  #   safari: "26.2"
+  #   safari_ios: "26.2"
+  - css.properties.position-visibility
+  - css.properties.position-visibility.always
+  - css.properties.position-visibility.anchors-visible
+  - css.properties.position-visibility.no-overflow
+
+  # baseline: false
+  # support:
+  #   chrome: "143"
+  #   chrome_android: "143"
+  #   edge: "143"
+  #   firefox: "147"
+  #   firefox_android: "147"
+  #   safari: "26.2"
+  #   safari_ios: "26.2"
+  - css.properties.position-area.span-self-x-end
+  - css.properties.position-area.span-self-x-start
+  - css.properties.position-area.span-self-y-end
+  - css.properties.position-area.span-self-y-start
+
+  # baseline: false
+  # support:
+  #   chrome: "125"
+  #   chrome_android: "125"
+  #   edge: "125"
+  #   firefox: preview
+  #   safari: "26"
+  #   safari_ios: "26"
+  - css.at-rules.position-try
+  - css.types.anchor
+  - css.types.anchor-size
+
+  # baseline: false
+  # support:
+  #   chrome: "132"
+  #   chrome_android: "132"
+  #   edge: "132"
+  #   firefox: preview
+  #   safari: "26"
+  #   safari_ios: "26"
   - css.types.anchor-size.inset_margin
 
   # baseline: false
@@ -234,43 +282,17 @@ compat_features:
 
   # baseline: false
   # support:
-  #   chrome: "143"
-  #   chrome_android: "143"
-  #   edge: "143"
-  #   firefox: preview
-  #   safari: "26.2"
-  #   safari_ios: "26.2"
-  - css.properties.position-area.span-self-x-end
-  - css.properties.position-area.span-self-x-start
-  - css.properties.position-area.span-self-y-end
-  - css.properties.position-area.span-self-y-start
-
-  # baseline: false
-  # support:
   #   chrome: "125"
   #   chrome_android: "125"
   #   edge: "125"
   #   safari: "26"
   #   safari_ios: "26"
-  - css.properties.align-items.anchor-center
-  - css.properties.align-self.anchor-center
-  - css.properties.justify-items.anchor-center
-  - css.properties.justify-self.anchor-center
   - css.properties.position-try-order
   - css.properties.position-try-order.most-block-size
   - css.properties.position-try-order.most-height
   - css.properties.position-try-order.most-inline-size
   - css.properties.position-try-order.most-width
   - css.properties.position-try-order.normal
-
-  # baseline: false
-  # support:
-  #   chrome: "125"
-  #   chrome_android: "125"
-  #   edge: "125"
-  #   safari: "26.2"
-  #   safari_ios: "26.2"
-  - css.properties.position-visibility.anchors-visible
 
   # baseline: false
   # support:
@@ -294,7 +316,8 @@ compat_features:
 
   # baseline: false
   # support:
-  #   firefox: preview
+  #   firefox: "147"
+  #   firefox_android: "147"
   #   safari: "26"
   #   safari_ios: "26"
   - css.properties.position-anchor.auto
@@ -321,7 +344,8 @@ compat_features:
 
   # baseline: false
   # support:
-  #   firefox: preview
+  #   firefox: "147"
+  #   firefox_android: "147"
   #   safari: "26.2"
   #   safari_ios: "26.2"
   - css.properties.position-area.self-x-end

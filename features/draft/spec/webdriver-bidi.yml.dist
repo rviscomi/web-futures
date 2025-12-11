@@ -827,6 +827,12 @@ compat_features:
   - webdriver.bidi.network.addDataCollector.userContexts_parameter
   - webdriver.bidi.network.disownData.dataType_parameter.response
 
+  # baseline: false
+  # support:
+  #   firefox: "147"
+  #   firefox_android: "147"
+  - webdriver.bidi.emulation.setScreenSettingsOverride
+
   # ⬇️ Same status as overall feature ⬇️
   # baseline: false
   # support: {}
@@ -838,7 +844,6 @@ compat_features:
   - webdriver.bidi.browsingContext.historyUpdated_event.url_parameter
   - webdriver.bidi.browsingContext.userPromptClosed_event.type_parameter.beforeunload
   - webdriver.bidi.browsingContext.userPromptOpened_event.type_parameter.beforeunload
-  - webdriver.bidi.emulation.setScreenSettingsOverride
   - webdriver.bidi.network.addDataCollector.collectorType_parameter
   - webdriver.bidi.network.authRequired_event.response_parameter
   - webdriver.bidi.network.provideResponse.body_parameter

@@ -319,15 +319,6 @@ compat_features:
 
   # baseline: false
   # support:
-  #   chrome: "109"
-  #   chrome_android: "109"
-  #   edge: "109"
-  #   firefox: "146"
-  #   firefox_android: "146"
-  - css.properties.math-shift
-
-  # baseline: false
-  # support:
   #   firefox: "1"
   #   firefox_android: "4"
   #   safari: "5.1"

@@ -7,7 +7,8 @@ status:
     chrome: "102"
     chrome_android: "102"
     edge: "102"
-    firefox: preview
+    firefox: "147"
+    firefox_android: "147"
     safari: "26.2"
     safari_ios: "26.2"
 compat_features:
@@ -17,7 +18,8 @@ compat_features:
   #   chrome: "102"
   #   chrome_android: "102"
   #   edge: "102"
-  #   firefox: preview
+  #   firefox: "147"
+  #   firefox_android: "147"
   #   safari: "26.2"
   #   safari_ios: "26.2"
   - api.NavigateEvent
@@ -64,13 +66,15 @@ compat_features:
   - api.NavigationTransition.finished
   - api.NavigationTransition.from
   - api.NavigationTransition.navigationType
+  - api.Window.navigation
 
   # baseline: false
   # support:
   #   chrome: "105"
   #   chrome_android: "105"
   #   edge: "105"
-  #   firefox: preview
+  #   firefox: "147"
+  #   firefox_android: "147"
   #   safari: "26.2"
   #   safari_ios: "26.2"
   - api.NavigateEvent.canIntercept
@@ -82,7 +86,8 @@ compat_features:
   #   chrome: "118"
   #   chrome_android: "118"
   #   edge: "118"
-  #   firefox: preview
+  #   firefox: "147"
+  #   firefox_android: "147"
   #   safari: "26.2"
   #   safari_ios: "26.2"
   - api.NavigateEvent.hasUAVisualTransition
@@ -92,7 +97,8 @@ compat_features:
   #   chrome: "123"
   #   chrome_android: "123"
   #   edge: "123"
-  #   firefox: preview
+  #   firefox: "147"
+  #   firefox_android: "147"
   #   safari: "26.2"
   #   safari_ios: "26.2"
   - api.Navigation.activation
@@ -106,9 +112,9 @@ compat_features:
   #   chrome: "102"
   #   chrome_android: "102"
   #   edge: "102"
-  #   safari: "26.2"
-  #   safari_ios: "26.2"
-  - api.Window.navigation
+  #   firefox: "147"
+  #   firefox_android: "147"
+  - api.NavigationHistoryEntry.dispose_event
 
   # baseline: false
   # support:
@@ -120,4 +126,3 @@ compat_features:
   - api.Navigation.navigate_event
   - api.Navigation.navigateerror_event
   - api.Navigation.navigatesuccess_event
-  - api.NavigationHistoryEntry.dispose_event

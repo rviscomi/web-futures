@@ -6,7 +6,10 @@ status:
   support:
     firefox: preview
 compat_features:
-  - api.Document.parseHTML_static
+  # baseline: false
+  # support:
+  #   firefox: "147"
+  #   firefox_android: "147"
   - api.Element.setHTML
   - api.Sanitizer
   - api.Sanitizer.Sanitizer
@@ -19,4 +22,10 @@ compat_features:
   - api.Sanitizer.replaceElementWithChildren
   - api.Sanitizer.setComments
   - api.Sanitizer.setDataAttributes
+
+  # ⬇️ Same status as overall feature ⬇️
+  # baseline: false
+  # support:
+  #   firefox: preview
+  - api.Document.parseHTML_static
   - api.ShadowRoot.setHTML
