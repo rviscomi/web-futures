@@ -285,17 +285,6 @@ compat_features:
   #   chrome: "109"
   #   chrome_android: "109"
   #   edge: "109"
-  #   firefox: "146"
-  #   firefox_android: "146"
-  #   safari: "26.2"
-  #   safari_ios: "26.2"
-  - css.properties.math-shift
-
-  # baseline: false
-  # support:
-  #   chrome: "109"
-  #   chrome_android: "109"
-  #   edge: "109"
   #   safari: "15.4"
   #   safari_ios: "15.4"
   - api.MathMLElement.nonce

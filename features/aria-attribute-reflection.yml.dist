@@ -246,18 +246,6 @@ compat_features:
 
   # baseline: false
   # support:
-  #   chrome: "128"
-  #   chrome_android: "128"
-  #   edge: "128"
-  #   firefox: "119"
-  #   firefox_android: "119"
-  #   safari: "26.2"
-  #   safari_ios: "26.2"
-  - api.Element.ariaColIndexText
-  - api.Element.ariaRowIndexText
-
-  # baseline: false
-  # support:
   #   chrome: "83"
   #   chrome_android: "83"
   #   edge: "83"
