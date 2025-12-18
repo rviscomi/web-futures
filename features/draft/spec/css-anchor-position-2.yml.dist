@@ -3,7 +3,9 @@
 
 status:
   baseline: false
-  support: {}
+  support:
+    firefox: "147"
+    firefox_android: "147"
 compat_features:
   # baseline: low
   # baseline_low_date: 2026-01-13
@@ -30,8 +32,6 @@ compat_features:
   #   firefox_android: "147"
   #   safari: "26"
   #   safari_ios: "26"
-  - css.properties.position-area.span-left
-  - css.properties.position-area.span-right
   - css.properties.position-try-fallbacks.block-end
   - css.properties.position-try-fallbacks.block-start
   - css.properties.position-try-fallbacks.bottom
@@ -119,30 +119,6 @@ compat_features:
 
   # baseline: false
   # support:
-  #   chrome: "129"
-  #   chrome_android: "129"
-  #   edge: "129"
-  #   safari: "26"
-  #   safari_ios: "26"
-  - css.properties.position-try-fallbacks.span-x-self-end
-  - css.properties.position-try-fallbacks.span-x-self-start
-  - css.properties.position-try-fallbacks.span-y-self-end
-  - css.properties.position-try-fallbacks.span-y-self-start
-  - css.properties.position-try-fallbacks.x-self-end
-  - css.properties.position-try-fallbacks.x-self-start
-  - css.properties.position-try-fallbacks.y-self-end
-  - css.properties.position-try-fallbacks.y-self-start
-  - css.properties.position-try.span-x-self-end
-  - css.properties.position-try.span-x-self-start
-  - css.properties.position-try.span-y-self-end
-  - css.properties.position-try.span-y-self-start
-  - css.properties.position-try.x-self-end
-  - css.properties.position-try.x-self-start
-  - css.properties.position-try.y-self-end
-  - css.properties.position-try.y-self-start
-
-  # baseline: false
-  # support:
   #   firefox: "147"
   #   firefox_android: "147"
   #   safari: "26.2"
@@ -152,34 +128,9 @@ compat_features:
   - css.properties.position-try.flip-x
   - css.properties.position-try.flip-y
 
-  # baseline: false
-  # support:
-  #   chrome: "143"
-  #   chrome_android: "143"
-  #   edge: "143"
-  - css.at-rules.container.anchor_position_queries
-  - css.at-rules.container.anchor_position_queries.fallback
-  - css.at-rules.container.anchor_position_queries.fallback.any_value
-  - css.properties.container-type.anchored
-
+  # ⬇️ Same status as overall feature ⬇️
   # baseline: false
   # support:
   #   firefox: "147"
   #   firefox_android: "147"
-  - css.properties.position-try-fallbacks.self-x-end
-  - css.properties.position-try-fallbacks.self-x-start
-  - css.properties.position-try-fallbacks.self-y-end
-  - css.properties.position-try-fallbacks.self-y-start
-  - css.properties.position-try-fallbacks.span-self-x-end
-  - css.properties.position-try-fallbacks.span-self-x-start
-  - css.properties.position-try-fallbacks.span-self-y-end
-  - css.properties.position-try-fallbacks.span-self-y-start
-  - css.properties.position-try.self-x-end
-  - css.properties.position-try.self-x-start
-  - css.properties.position-try.self-y-end
-  - css.properties.position-try.self-y-start
-  - css.properties.position-try.span-self-x-end
-  - css.properties.position-try.span-self-x-start
-  - css.properties.position-try.span-self-y-end
-  - css.properties.position-try.span-self-y-start
   - css.properties.position-visibility.anchors-valid

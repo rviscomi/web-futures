@@ -1775,7 +1775,8 @@ compat_features:
   - api.SVGGeometryElement.isPointInFill.point_parameter_DOMPoint
   - api.SVGGeometryElement.isPointInStroke.point_parameter_DOMPoint
 
-  # baseline: false
+  # baseline: low
+  # baseline_low_date: 2025-12-12
   # support:
   #   chrome: "142"
   #   chrome_android: "142"
@@ -1786,7 +1787,8 @@ compat_features:
   #   safari_ios: "26.2"
   - api.SVGScriptElement.async
 
-  # baseline: false
+  # baseline: low
+  # baseline_low_date: 2026-01-15
   # support:
   #   chrome: "144"
   #   chrome_android: "144"

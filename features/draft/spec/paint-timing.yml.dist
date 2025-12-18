@@ -3,9 +3,7 @@
 
 status:
   baseline: false
-  support:
-    firefox: "140"
-    firefox_android: "140"
+  support: {}
 compat_features:
   # baseline: false
   # support:
@@ -14,12 +12,15 @@ compat_features:
   #   safari: "26.2"
   #   safari_ios: "26.2"
   - api.LargestContentfulPaint.paintTime
-  - api.LargestContentfulPaint.presentationTime
 
-  # ⬇️ Same status as overall feature ⬇️
   # baseline: false
   # support:
   #   firefox: "140"
   #   firefox_android: "140"
   - api.PerformancePaintTiming.paintTime
   - api.PerformancePaintTiming.presentationTime
+
+  # ⬇️ Same status as overall feature ⬇️
+  # baseline: false
+  # support: {}
+  - api.LargestContentfulPaint.presentationTime

@@ -11,7 +11,8 @@ status:
     firefox_android: "144"
     safari: preview
 compat_features:
-  # baseline: false
+  # baseline: low
+  # baseline_low_date: 2025-12-12
   # support:
   #   chrome: "135"
   #   chrome_android: "135"

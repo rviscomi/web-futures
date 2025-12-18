@@ -136,7 +136,8 @@ compat_features:
   #   safari_ios: "16.4"
   - css.properties.outline.currentColor
 
-  # baseline: false
+  # baseline: low
+  # baseline_low_date: 2025-12-12
   # support:
   #   chrome: "57"
   #   chrome_android: "57"

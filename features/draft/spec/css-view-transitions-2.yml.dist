@@ -8,7 +8,8 @@ status:
     chrome_android: "144"
     edge: "144"
 compat_features:
-  # baseline: false
+  # baseline: low
+  # baseline_low_date: 2026-01-13
   # support:
   #   chrome: "142"
   #   chrome_android: "142"

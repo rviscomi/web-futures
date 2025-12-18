@@ -27,7 +27,8 @@ compat_features:
   - api.Document.hasStorageAccess
   - api.Document.requestStorageAccess
 
-  # baseline: false
+  # baseline: low
+  # baseline_low_date: 2025-12-12
   # support:
   #   chrome: "119"
   #   chrome_android: "120"
@@ -45,17 +46,3 @@ compat_features:
   #   edge: "113"
   - html.elements.iframe.allow.storage-access
   - http.headers.Permissions-Policy.storage-access
-
-  # baseline: false
-  # support:
-  #   chrome: "113"
-  #   chrome_android: "120"
-  #   edge: "113"
-  - api.Permissions.permission_top-level-storage-access
-
-  # baseline: false
-  # support:
-  #   chrome: "119"
-  #   chrome_android: "119"
-  #   edge: "119"
-  - api.Document.requestStorageAccessFor

@@ -23,7 +23,8 @@ compat_features:
   - css.properties.math-style.compact
   - css.properties.math-style.normal
 
-  # baseline: false
+  # baseline: low
+  # baseline_low_date: 2025-12-12
   # support:
   #   chrome: "109"
   #   chrome_android: "109"

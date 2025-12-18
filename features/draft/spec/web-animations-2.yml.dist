@@ -7,7 +7,8 @@ status:
     firefox: "142"
     firefox_android: "142"
 compat_features:
-  # baseline: false
+  # baseline: low
+  # baseline_low_date: 2025-12-12
   # support:
   #   chrome: "133"
   #   chrome_android: "133"
