@@ -117,17 +117,19 @@ compat_features:
   #   chrome: "102"
   #   chrome_android: "102"
   #   edge: "102"
-  #   firefox: "147"
-  #   firefox_android: "147"
-  - api.NavigationHistoryEntry.dispose_event
+  #   firefox: preview
+  #   safari: "26.2"
+  #   safari_ios: "26.2"
+  - api.Navigation.currententrychange_event
+  - api.Navigation.navigate_event
+  - api.Navigation.navigateerror_event
+  - api.Navigation.navigatesuccess_event
 
   # baseline: false
   # support:
   #   chrome: "102"
   #   chrome_android: "102"
   #   edge: "102"
-  #   firefox: preview
-  - api.Navigation.currententrychange_event
-  - api.Navigation.navigate_event
-  - api.Navigation.navigateerror_event
-  - api.Navigation.navigatesuccess_event
+  #   firefox: "147"
+  #   firefox_android: "147"
+  - api.NavigationHistoryEntry.dispose_event
