@@ -39,9 +39,13 @@ compat_features:
   - api.Navigation.canGoBack
   - api.Navigation.canGoForward
   - api.Navigation.currentEntry
+  - api.Navigation.currententrychange_event
   - api.Navigation.entries
   - api.Navigation.forward
   - api.Navigation.navigate
+  - api.Navigation.navigate_event
+  - api.Navigation.navigateerror_event
+  - api.Navigation.navigatesuccess_event
   - api.Navigation.reload
   - api.Navigation.transition
   - api.Navigation.traverseTo
@@ -58,6 +62,7 @@ compat_features:
   - api.NavigationDestination.sameDocument
   - api.NavigationDestination.url
   - api.NavigationHistoryEntry
+  - api.NavigationHistoryEntry.dispose_event
   - api.NavigationHistoryEntry.getState
   - api.NavigationHistoryEntry.id
   - api.NavigationHistoryEntry.index
@@ -111,25 +116,3 @@ compat_features:
   - api.NavigationActivation.entry
   - api.NavigationActivation.from
   - api.NavigationActivation.navigationType
-
-  # baseline: false
-  # support:
-  #   chrome: "102"
-  #   chrome_android: "102"
-  #   edge: "102"
-  #   firefox: preview
-  #   safari: "26.2"
-  #   safari_ios: "26.2"
-  - api.Navigation.currententrychange_event
-  - api.Navigation.navigate_event
-  - api.Navigation.navigateerror_event
-  - api.Navigation.navigatesuccess_event
-
-  # baseline: false
-  # support:
-  #   chrome: "102"
-  #   chrome_android: "102"
-  #   edge: "102"
-  #   firefox: "147"
-  #   firefox_android: "147"
-  - api.NavigationHistoryEntry.dispose_event
