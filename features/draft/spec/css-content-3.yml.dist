@@ -11,7 +11,7 @@ compat_features:
   #   firefox_android: "147"
   - css.selectors.marker.quotes_support
 
-  # ⬇️ Same status as overall feature ⬇️
   # baseline: false
-  # support: {}
+  # support:
+  #   chrome: preview
   - css.properties.content.alt_text.counters

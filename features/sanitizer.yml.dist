@@ -8,8 +8,11 @@ status:
 compat_features:
   # baseline: false
   # support:
-  #   firefox: "147"
-  #   firefox_android: "147"
+  #   chrome: "145"
+  #   chrome_android: "145"
+  #   edge: "145"
+  #   firefox: "148"
+  #   firefox_android: "148"
   - api.Element.setHTML
   - api.Sanitizer
   - api.Sanitizer.Sanitizer
