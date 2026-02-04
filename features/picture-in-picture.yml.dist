@@ -70,4 +70,5 @@ compat_features:
   # support:
   #   chrome: "123"
   #   edge: "123"
+  #   firefox: preview
   - css.at-rules.media.display-mode.picture-in-picture

@@ -263,11 +263,14 @@ compat_features:
   - css.properties.position-try.span-self-y-end
   - css.properties.position-try.span-self-y-start
 
-  # baseline: false
+  # baseline: low
+  # baseline_low_date: 2026-02-24
   # support:
   #   chrome: "125"
   #   chrome_android: "125"
   #   edge: "125"
+  #   firefox: "148"
+  #   firefox_android: "148"
   #   safari: "26"
   #   safari_ios: "26"
   - css.properties.position-try-order
@@ -277,11 +280,65 @@ compat_features:
   - css.properties.position-try-order.most-width
   - css.properties.position-try-order.normal
 
+  # baseline: low
+  # baseline_low_date: 2026-02-24
+  # support:
+  #   chrome: "144"
+  #   chrome_android: "144"
+  #   edge: "144"
+  #   firefox: "148"
+  #   firefox_android: "148"
+  #   safari: "26"
+  #   safari_ios: "26"
+  - css.properties.position-area.block-end
+  - css.properties.position-area.block-start
+  - css.properties.position-area.bottom
+  - css.properties.position-area.end
+  - css.properties.position-area.inline-end
+  - css.properties.position-area.inline-start
+  - css.properties.position-area.left
+  - css.properties.position-area.right
+  - css.properties.position-area.self-block-end
+  - css.properties.position-area.self-block-start
+  - css.properties.position-area.self-end
+  - css.properties.position-area.self-inline-end
+  - css.properties.position-area.self-inline-start
+  - css.properties.position-area.self-start
+  - css.properties.position-area.top
+  - css.properties.position-area.x-end
+  - css.properties.position-area.x-start
+  - css.properties.position-area.y-end
+  - css.properties.position-area.y-start
+
+  # baseline: low
+  # baseline_low_date: 2026-02-24
+  # support:
+  #   chrome: "144"
+  #   chrome_android: "144"
+  #   edge: "144"
+  #   firefox: "148"
+  #   firefox_android: "148"
+  #   safari: "26.2"
+  #   safari_ios: "26.2"
+  - css.properties.position-area.self-x-end
+  - css.properties.position-area.self-x-start
+  - css.properties.position-area.self-y-end
+  - css.properties.position-area.self-y-start
+  - css.properties.position-try-fallbacks.self-x-end
+  - css.properties.position-try-fallbacks.self-x-start
+  - css.properties.position-try-fallbacks.self-y-end
+  - css.properties.position-try-fallbacks.self-y-start
+  - css.properties.position-try.self-x-end
+  - css.properties.position-try.self-x-start
+  - css.properties.position-try.self-y-end
+  - css.properties.position-try.self-y-start
+
   # baseline: false
   # support:
   #   chrome: "132"
   #   chrome_android: "132"
   #   edge: "132"
+  #   firefox: preview
   #   safari: "26"
   #   safari_ios: "26"
   - css.types.anchor-size.inset_margin
@@ -291,6 +348,7 @@ compat_features:
   #   chrome: "137"
   #   chrome_android: "137"
   #   edge: "137"
+  #   firefox: preview
   #   safari: "26"
   #   safari_ios: "26"
   - api.HTMLElement.togglePopover.options_source_parameter.implicit_anchor_reference
@@ -311,46 +369,7 @@ compat_features:
   #   edge: "144"
   #   safari: "26"
   #   safari_ios: "26"
-  - css.properties.position-area.block-end
-  - css.properties.position-area.block-start
-  - css.properties.position-area.bottom
-  - css.properties.position-area.end
-  - css.properties.position-area.inline-end
-  - css.properties.position-area.inline-start
-  - css.properties.position-area.left
-  - css.properties.position-area.right
-  - css.properties.position-area.self-block-end
-  - css.properties.position-area.self-block-start
-  - css.properties.position-area.self-end
-  - css.properties.position-area.self-inline-end
-  - css.properties.position-area.self-inline-start
-  - css.properties.position-area.self-start
   - css.properties.position-area.span-all
-  - css.properties.position-area.top
-  - css.properties.position-area.x-end
-  - css.properties.position-area.x-start
-  - css.properties.position-area.y-end
-  - css.properties.position-area.y-start
-
-  # baseline: false
-  # support:
-  #   chrome: "144"
-  #   chrome_android: "144"
-  #   edge: "144"
-  #   safari: "26.2"
-  #   safari_ios: "26.2"
-  - css.properties.position-area.self-x-end
-  - css.properties.position-area.self-x-start
-  - css.properties.position-area.self-y-end
-  - css.properties.position-area.self-y-start
-  - css.properties.position-try-fallbacks.self-x-end
-  - css.properties.position-try-fallbacks.self-x-start
-  - css.properties.position-try-fallbacks.self-y-end
-  - css.properties.position-try-fallbacks.self-y-start
-  - css.properties.position-try.self-x-end
-  - css.properties.position-try.self-x-start
-  - css.properties.position-try.self-y-end
-  - css.properties.position-try.self-y-start
 
   # baseline: false
   # support:
@@ -363,18 +382,19 @@ compat_features:
 
   # baseline: false
   # support:
+  #   chrome: "133"
+  #   chrome_android: "133"
+  #   edge: "133"
+  #   firefox: preview
+  - api.HTMLButtonElement.popoverTargetElement.implicit_anchor_reference
+  - api.HTMLInputElement.popoverTargetElement.implicit_anchor_reference
+  - html.elements.button.popovertarget.implicit_anchor_reference
+  - html.elements.input.popovertarget.implicit_anchor_reference
+
+  # baseline: false
+  # support:
   #   firefox: "147"
   #   firefox_android: "147"
   #   safari: "26"
   #   safari_ios: "26"
   - css.properties.position-anchor.auto
-
-  # baseline: false
-  # support:
-  #   chrome: "133"
-  #   chrome_android: "133"
-  #   edge: "133"
-  - api.HTMLButtonElement.popoverTargetElement.implicit_anchor_reference
-  - api.HTMLInputElement.popoverTargetElement.implicit_anchor_reference
-  - html.elements.button.popovertarget.implicit_anchor_reference
-  - html.elements.input.popovertarget.implicit_anchor_reference
