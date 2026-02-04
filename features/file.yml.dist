@@ -247,7 +247,7 @@ compat_features:
   - api.Blob.stream
 
   # baseline: low
-  # baseline_low_date: 2026-01-15
+  # baseline_low_date: 2026-01-21
   # support:
   #   chrome: "144"
   #   chrome_android: "144"
