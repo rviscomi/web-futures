@@ -33,3 +33,4 @@ compat_features:
   - css.properties.column-wrap.auto
   - css.properties.column-wrap.nowrap
   - css.properties.column-wrap.wrap
+  - css.properties.columns.column-height
