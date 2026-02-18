@@ -84,6 +84,16 @@ compat_features:
 
   # baseline: false
   # support:
+  #   chrome: "145"
+  #   chrome_android: "145"
+  #   firefox: "104"
+  #   firefox_android: "104"
+  #   safari: "18.4"
+  #   safari_ios: "18.4"
+  - api.HTMLElement.focus.options_focusVisible_parameter
+
+  # baseline: false
+  # support:
   #   chrome: "64"
   #   edge: "17"
   #   firefox: "68"
