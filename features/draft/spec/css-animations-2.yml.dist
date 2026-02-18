@@ -3,7 +3,10 @@
 
 status:
   baseline: false
-  support: {}
+  support:
+    chrome: "146"
+    chrome_android: "146"
+    edge: "146"
 compat_features:
   # baseline: high
   # baseline_low_date: 2020-01-15
@@ -46,7 +49,10 @@ compat_features:
 
   # ⬇️ Same status as overall feature ⬇️
   # baseline: false
-  # support: {}
+  # support:
+  #   chrome: "146"
+  #   chrome_android: "146"
+  #   edge: "146"
   - css.properties.animation-trigger
   - css.properties.animation-trigger.none
   - css.properties.timeline-trigger
