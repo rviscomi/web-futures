@@ -9,6 +9,8 @@ status:
     edge: "89"
     firefox: "102"
     firefox_android: "102"
+    safari: "26.4"
+    safari_ios: "26.4"
 compat_features:
   # ⬇️ Same status as overall feature ⬇️
   # baseline: false
@@ -18,6 +20,8 @@ compat_features:
   #   edge: "89"
   #   firefox: "102"
   #   firefox_android: "102"
+  #   safari: "26.4"
+  #   safari_ios: "26.4"
   - api.ReadableByteStreamController
   - api.ReadableByteStreamController.byobRequest
   - api.ReadableByteStreamController.close

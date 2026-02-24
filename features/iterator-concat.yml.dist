@@ -9,5 +9,7 @@ status:
     edge: "146"
     firefox: "147"
     firefox_android: "147"
+    safari: "26.4"
+    safari_ios: "26.4"
 compat_features:
   - javascript.builtins.Iterator.concat

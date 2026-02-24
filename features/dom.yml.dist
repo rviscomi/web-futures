@@ -1295,6 +1295,17 @@ compat_features:
 
   # baseline: false
   # support:
+  #   chrome: "128"
+  #   chrome_android: "128"
+  #   edge: "128"
+  #   firefox: "126"
+  #   firefox_android: "126"
+  #   safari: "26.4"
+  #   safari_ios: "26.4"
+  - api.Element.currentCSSZoom
+
+  # baseline: false
+  # support:
   #   chrome: "56"
   #   chrome_android: "56"
   #   edge: "79"
@@ -1302,12 +1313,3 @@ compat_features:
   #   firefox_android: "50"
   - api.Document.createElement.options_parameter
   - api.Document.createElementNS.options_parameter
-
-  # baseline: false
-  # support:
-  #   chrome: "128"
-  #   chrome_android: "128"
-  #   edge: "128"
-  #   firefox: "126"
-  #   firefox_android: "126"
-  - api.Element.currentCSSZoom

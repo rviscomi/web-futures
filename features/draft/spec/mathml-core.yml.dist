@@ -43,6 +43,8 @@ compat_features:
   #   edge: "109"
   #   firefox: "117"
   #   firefox_android: "117"
+  #   safari: "26.4"
+  #   safari_ios: "26.4"
   - css.properties.math-depth.auto-add
 
   # ⬇️ Same status as overall feature ⬇️

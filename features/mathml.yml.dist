@@ -285,6 +285,18 @@ compat_features:
   #   chrome: "109"
   #   chrome_android: "109"
   #   edge: "109"
+  #   firefox: "117"
+  #   firefox_android: "117"
+  #   safari: "26.4"
+  #   safari_ios: "26.4"
+  - css.properties.font-size.math
+  - css.properties.math-depth
+
+  # baseline: false
+  # support:
+  #   chrome: "109"
+  #   chrome_android: "109"
+  #   edge: "109"
   #   safari: "15.4"
   #   safari_ios: "15.4"
   - api.MathMLElement.nonce
@@ -314,8 +326,6 @@ compat_features:
   #   edge: "109"
   #   firefox: "117"
   #   firefox_android: "117"
-  - css.properties.font-size.math
-  - css.properties.math-depth
   - css.properties.text-transform.math-auto
 
   # baseline: false

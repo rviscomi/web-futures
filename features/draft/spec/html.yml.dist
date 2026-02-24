@@ -877,15 +877,6 @@ compat_features:
 
   # baseline: false
   # support:
-  #   chrome: "146"
-  #   chrome_android: "146"
-  #   edge: "146"
-  #   firefox: "148"
-  #   firefox_android: "148"
-  - api.NavigationPrecommitController.addHandler
-
-  # baseline: false
-  # support:
   #   chrome: "96"
   #   chrome_android: "96"
   #   edge: "96"
