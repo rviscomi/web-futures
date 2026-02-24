@@ -9,7 +9,7 @@ status:
     edge: "145"
 compat_features:
   # baseline: low
-  # baseline_low_date: 2026-02-12
+  # baseline_low_date: 2026-02-14
   # support:
   #   chrome: "145"
   #   chrome_android: "145"
