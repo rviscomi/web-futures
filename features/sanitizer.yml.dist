@@ -4,7 +4,8 @@
 status:
   baseline: false
   support:
-    firefox: preview
+    firefox: "148"
+    firefox_android: "148"
 compat_features:
   # baseline: false
   # support:
@@ -29,6 +30,7 @@ compat_features:
   # ⬇️ Same status as overall feature ⬇️
   # baseline: false
   # support:
-  #   firefox: preview
+  #   firefox: "148"
+  #   firefox_android: "148"
   - api.Document.parseHTML_static
   - api.ShadowRoot.setHTML

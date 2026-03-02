@@ -243,6 +243,34 @@ compat_features:
   # baseline: low
   # baseline_low_date: 2026-01-13
   # support:
+  #   chrome: "133"
+  #   chrome_android: "133"
+  #   edge: "133"
+  #   firefox: "147"
+  #   firefox_android: "147"
+  #   safari: "26"
+  #   safari_ios: "26"
+  - api.HTMLButtonElement.popoverTargetElement.implicit_anchor_reference
+  - api.HTMLInputElement.popoverTargetElement.implicit_anchor_reference
+  - html.elements.button.popovertarget.implicit_anchor_reference
+  - html.elements.input.popovertarget.implicit_anchor_reference
+
+  # baseline: low
+  # baseline_low_date: 2026-01-13
+  # support:
+  #   chrome: "137"
+  #   chrome_android: "137"
+  #   edge: "137"
+  #   firefox: "147"
+  #   firefox_android: "147"
+  #   safari: "26"
+  #   safari_ios: "26"
+  - api.HTMLElement.showPopover.options_source_parameter.implicit_anchor_reference
+  - api.HTMLElement.togglePopover.options_source_parameter.implicit_anchor_reference
+
+  # baseline: low
+  # baseline_low_date: 2026-01-13
+  # support:
   #   chrome: "143"
   #   chrome_android: "143"
   #   edge: "143"
@@ -345,25 +373,6 @@ compat_features:
 
   # baseline: false
   # support:
-  #   chrome: "137"
-  #   chrome_android: "137"
-  #   edge: "137"
-  #   firefox: preview
-  #   safari: "26"
-  #   safari_ios: "26"
-  - api.HTMLElement.togglePopover.options_source_parameter.implicit_anchor_reference
-
-  # baseline: false
-  # support:
-  #   chrome: "137"
-  #   chrome_android: "137"
-  #   edge: "137"
-  #   firefox: "144"
-  #   firefox_android: "144"
-  - api.HTMLElement.showPopover.options_source_parameter.implicit_anchor_reference
-
-  # baseline: false
-  # support:
   #   chrome: "144"
   #   chrome_android: "144"
   #   edge: "144"
@@ -379,17 +388,6 @@ compat_features:
   #   firefox: "147"
   #   firefox_android: "147"
   - css.properties.position-anchor.none
-
-  # baseline: false
-  # support:
-  #   chrome: "133"
-  #   chrome_android: "133"
-  #   edge: "133"
-  #   firefox: preview
-  - api.HTMLButtonElement.popoverTargetElement.implicit_anchor_reference
-  - api.HTMLInputElement.popoverTargetElement.implicit_anchor_reference
-  - html.elements.button.popovertarget.implicit_anchor_reference
-  - html.elements.input.popovertarget.implicit_anchor_reference
 
   # baseline: false
   # support:
