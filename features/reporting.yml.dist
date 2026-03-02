@@ -10,11 +10,14 @@ status:
     safari: "16.4"
     safari_ios: "16.4"
 compat_features:
-  # baseline: false
+  # baseline: low
+  # baseline_low_date: 2026-03-24
   # support:
   #   chrome: "69"
   #   chrome_android: "69"
   #   edge: "79"
+  #   firefox: "149"
+  #   firefox_android: "149"
   #   safari: "16.4"
   #   safari_ios: "16.4"
   - api.ReportingObserver
@@ -22,6 +25,15 @@ compat_features:
   - api.ReportingObserver.disconnect
   - api.ReportingObserver.observe
   - api.ReportingObserver.takeRecords
+
+  # baseline: false
+  # support:
+  #   chrome: "84"
+  #   chrome_android: "84"
+  #   edge: "84"
+  #   firefox: "149"
+  #   firefox_android: "149"
+  - api.ReportingObserver.worker_support
 
   # ⬇️ Same status as overall feature ⬇️
   # baseline: false
@@ -53,10 +65,3 @@ compat_features:
   - api.InterventionReportBody.message
   - api.InterventionReportBody.sourceFile
   - api.InterventionReportBody.toJSON
-
-  # baseline: false
-  # support:
-  #   chrome: "84"
-  #   chrome_android: "84"
-  #   edge: "84"
-  - api.ReportingObserver.worker_support

@@ -846,15 +846,6 @@ compat_features:
 
   # baseline: false
   # support:
-  #   chrome: "97"
-  #   chrome_android: "97"
-  #   edge: "97"
-  #   firefox: "148"
-  #   firefox_android: "148"
-  - html.elements.details.search_match_opens
-
-  # baseline: false
-  # support:
   #   chrome: "99"
   #   chrome_android: "99"
   #   edge: "99"
@@ -897,6 +888,15 @@ compat_features:
   #   firefox: "147"
   #   firefox_android: "147"
   - api.NavigationTransition.committed
+
+  # baseline: false
+  # support:
+  #   chrome: "147"
+  #   chrome_android: "147"
+  #   edge: "147"
+  #   safari: "26.2"
+  #   safari_ios: "26.2"
+  - html.elements.link.rel.modulepreload.as-json
 
   # baseline: false
   # support:
@@ -1044,6 +1044,13 @@ compat_features:
 
   # baseline: false
   # support:
+  #   chrome: "147"
+  #   chrome_android: "147"
+  #   edge: "147"
+  - html.elements.link.rel.modulepreload.as-style
+
+  # baseline: false
+  # support:
   #   firefox: "1"
   #   firefox_android: "4"
   - api.Navigator.oscpu
@@ -1054,12 +1061,6 @@ compat_features:
   #   safari: "9"
   #   safari_ios: "9"
   - api.HTMLMediaElement.getStartDate
-
-  # baseline: false
-  # support:
-  #   safari: "26.2"
-  #   safari_ios: "26.2"
-  - html.elements.link.rel.modulepreload.as-json
 
   # baseline: false
   # support:
@@ -1078,5 +1079,4 @@ compat_features:
   # baseline: false
   # support: {}
   - api.Navigator.authentication
-  - html.elements.link.rel.modulepreload.as-style
   - html.elements.track.kind.descriptions

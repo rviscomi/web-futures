@@ -7,7 +7,7 @@ status:
     chrome: "126"
     chrome_android: "126"
     edge: "126"
-    firefox: preview
+    firefox: "149"
 compat_features:
   - api.CloseWatcher
   - api.CloseWatcher.CloseWatcher
