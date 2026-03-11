@@ -3,7 +3,8 @@
 
 status:
   baseline: false
-  support: {}
+  support:
+    chrome: preview
 compat_features:
   # baseline: high
   # baseline_low_date: 2023-03-27
@@ -20,7 +21,8 @@ compat_features:
 
   # ⬇️ Same status as overall feature ⬇️
   # baseline: false
-  # support: {}
+  # support:
+  #   chrome: preview
   - api.Navigator.preferences
   - api.PreferenceManager
   - api.PreferenceManager.colorScheme

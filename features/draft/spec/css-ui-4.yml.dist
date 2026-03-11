@@ -48,6 +48,7 @@ compat_features:
   #   chrome: "135"
   #   chrome_android: "135"
   #   edge: "135"
+  #   safari: preview
   - css.properties.appearance.base-select.single_dropdown
 
   # baseline: false

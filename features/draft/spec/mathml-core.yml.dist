@@ -9,6 +9,8 @@ status:
     edge: "109"
     firefox: "146"
     firefox_android: "146"
+    safari: "26.4"
+    safari_ios: "26.4"
 compat_features:
   # baseline: high
   # baseline_low_date: 2023-08-29

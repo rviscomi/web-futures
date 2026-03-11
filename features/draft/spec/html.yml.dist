@@ -855,6 +855,15 @@ compat_features:
 
   # baseline: false
   # support:
+  #   chrome: "99"
+  #   chrome_android: "99"
+  #   edge: "99"
+  #   firefox: "149"
+  #   safari: preview
+  - api.HTMLInputElement.showPicker.datalist_input
+
+  # baseline: false
+  # support:
   #   chrome: "103"
   #   chrome_android: "103"
   #   edge: "103"
@@ -911,14 +920,6 @@ compat_features:
   #   chrome: "99"
   #   chrome_android: "99"
   #   edge: "99"
-  #   safari: preview
-  - api.HTMLInputElement.showPicker.datalist_input
-
-  # baseline: false
-  # support:
-  #   chrome: "99"
-  #   chrome_android: "99"
-  #   edge: "99"
   #   firefox_android: "121"
   - api.HTMLInputElement.showPicker.month_input
   - api.HTMLInputElement.showPicker.week_input
@@ -930,6 +931,14 @@ compat_features:
   #   safari: "17.2"
   #   safari_ios: "17.2"
   - api.HTMLBaseElement.href.forbid_data_javascript_urls
+
+  # baseline: false
+  # support:
+  #   chrome: "135"
+  #   chrome_android: "135"
+  #   edge: "135"
+  #   safari: preview
+  - api.HTMLSelectedContentElement
 
   # baseline: false
   # support:
@@ -997,13 +1006,6 @@ compat_features:
   #   chrome_android: "134"
   #   edge: "134"
   - api.OffscreenCanvasRenderingContext2D.getContextAttributes
-
-  # baseline: false
-  # support:
-  #   chrome: "135"
-  #   chrome_android: "135"
-  #   edge: "135"
-  - api.HTMLSelectedContentElement
 
   # baseline: false
   # support:
