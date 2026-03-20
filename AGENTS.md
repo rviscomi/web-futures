@@ -78,6 +78,13 @@ npm run build
 
 This generates the release candidate for the new version.
 
+### 6. Commit the Merge
+Once the build is verified, commit all staged changes with this exact message:
+
+```
+Merge branch 'main' of github.com:web-platform-dx/web-features
+```
+
 ---
 
 ## Publishing
