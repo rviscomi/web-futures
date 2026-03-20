@@ -900,6 +900,15 @@ compat_features:
 
   # baseline: false
   # support:
+  #   chrome: "146"
+  #   chrome_android: "146"
+  #   edge: "146"
+  #   safari: "26"
+  #   safari_ios: "26"
+  - html.elements.template.shadowrootcustomelementregistry
+
+  # baseline: false
+  # support:
   #   chrome: "147"
   #   chrome_android: "147"
   #   edge: "147"
